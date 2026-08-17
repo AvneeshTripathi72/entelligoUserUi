@@ -38,7 +38,7 @@ export default async function UserDetailsPage({ params }: { params: Promise<{ id
     notFound();
   }
 
-  const avatarUrl = `https://i.pravatar.cc/250?u=${user.id}`;
+  const avatarUrl = user.avatar || `https://i.pravatar.cc/250?u=${user.id}`;
   const initials = user.name.split(' ').map(n => n[0]).join('').substring(0, 2);
 
   return (

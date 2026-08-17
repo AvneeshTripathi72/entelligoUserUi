@@ -3,596 +3,574 @@ import { User } from '@/types/user';
 export const mockUsers: User[] = [
   {
     "id": 1,
-    "name": "Tanya Jain",
-    "username": "tanya.jain01",
-    "email": "tanya.jain@buildfast.in",
+    "name": "Vaani Saha",
+    "username": "vaani.saha00",
+    "email": "vaani.saha@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
     "address": {
-      "street": "Street 1",
-      "suite": "Suite 18",
-      "city": "Mumbai",
-      "zipcode": "620845",
+      "street": "8496 Lindsay St",
+      "suite": "Apt 18",
+      "city": "Suryapet",
+      "zipcode": "32513",
       "geo": {
-        "lat": "21.6165",
-        "lng": "75.7717"
+        "lat": "23.5036",
+        "lng": "27.0054"
       }
     },
-    "phone": "+91 9564034859",
-    "website": "tanyajain.dev",
+    "phone": "8320080356",
+    "website": "vaanisaha.dev",
     "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "Secure cloud foundations for growth",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Rohan Das",
-    "username": "rohan.das02",
-    "email": "rohan.das@techhub.in",
-    "address": {
-      "street": "Street 8",
-      "suite": "Suite 12",
-      "city": "Ahmedabad",
-      "zipcode": "712936",
-      "geo": {
-        "lat": "17.9872",
-        "lng": "75.9566"
-      }
-    },
-    "phone": "+91 9281904422",
-    "website": "rohandas.dev",
-    "company": {
-      "name": "Acme Support",
-      "catchPhrase": "Secure cloud foundations for growth",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Isha Jain",
-    "username": "isha.jain03",
-    "email": "isha.jain@acmecorp.in",
-    "address": {
-      "street": "Street 73",
-      "suite": "Suite 5",
-      "city": "Jaipur",
-      "zipcode": "251880",
-      "geo": {
-        "lat": "21.5215",
-        "lng": "83.9157"
-      }
-    },
-    "phone": "+91 9391283012",
-    "website": "ishajain.dev",
-    "company": {
-      "name": "Acme Web",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Tanya Reddy",
-    "username": "tanya.reddy04",
-    "email": "tanya.reddy@acmecorp.in",
-    "address": {
-      "street": "Street 63",
-      "suite": "Suite 27",
-      "city": "Chennai",
-      "zipcode": "953048",
-      "geo": {
-        "lat": "27.0891",
-        "lng": "75.5106"
-      }
-    },
-    "phone": "+91 9831790550",
-    "website": "tanyareddy.dev",
-    "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Riya Bose",
-    "username": "riya.bose05",
-    "email": "riya.bose@innovate.co.in",
-    "address": {
-      "street": "Street 9",
-      "suite": "Suite 40",
-      "city": "Hyderabad",
-      "zipcode": "856649",
-      "geo": {
-        "lat": "18.0661",
-        "lng": "76.6481"
-      }
-    },
-    "phone": "+91 9768118261",
-    "website": "riyabose.dev",
-    "company": {
-      "name": "Acme Mobile",
-      "catchPhrase": "High-performance apps for iOS and Android",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 6,
-    "name": "Akash Patel",
-    "username": "akash.patel06",
-    "email": "akash.patel@acmecorp.in",
-    "address": {
-      "street": "Street 96",
-      "suite": "Suite 9",
-      "city": "Jaipur",
-      "zipcode": "824089",
-      "geo": {
-        "lat": "23.1127",
-        "lng": "76.8525"
-      }
-    },
-    "phone": "+91 9473948388",
-    "website": "akashpatel.dev",
-    "company": {
-      "name": "Acme Commerce",
-      "catchPhrase": "High-performance apps for iOS and Android",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 7,
-    "name": "Rohit Rao",
-    "username": "rohit.rao07",
-    "email": "rohit.rao@acmecorp.in",
-    "address": {
-      "street": "Street 41",
-      "suite": "Suite 24",
-      "city": "Bengaluru",
-      "zipcode": "439101",
-      "geo": {
-        "lat": "26.3582",
-        "lng": "86.8306"
-      }
-    },
-    "phone": "+91 9295146390",
-    "website": "rohitrao.dev",
-    "company": {
-      "name": "Acme Commerce",
+      "name": "Acme Data",
       "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 8,
-    "name": "Riya Menon",
-    "username": "riya.menon08",
-    "email": "riya.menon@innovate.co.in",
+    "id": 2,
+    "name": "Sarthak Kini",
+    "username": "sarthak.kini01",
+    "email": "sarthak.kini@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/men/28.jpg",
     "address": {
-      "street": "Street 100",
-      "suite": "Suite 30",
-      "city": "Noida",
-      "zipcode": "481243",
+      "street": "7800 Carter Rd Promenade",
+      "suite": "Apt 41",
+      "city": "Bhusawal",
+      "zipcode": "97726",
       "geo": {
-        "lat": "19.3858",
-        "lng": "89.6962"
+        "lat": "-26.4840",
+        "lng": "33.0847"
       }
     },
-    "phone": "+91 9134143936",
-    "website": "riyamenon.dev",
+    "phone": "9824687577",
+    "website": "sarthakkini.dev",
     "company": {
-      "name": "Acme AI Data Labs",
-      "catchPhrase": "Automation and insight through applied AI",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 9,
-    "name": "Amit Verma",
-    "username": "amit.verma09",
-    "email": "amit.verma@innovate.co.in",
-    "address": {
-      "street": "Street 51",
-      "suite": "Suite 22",
-      "city": "Ahmedabad",
-      "zipcode": "509731",
-      "geo": {
-        "lat": "13.3096",
-        "lng": "76.9481"
-      }
-    },
-    "phone": "+91 9643875266",
-    "website": "amitverma.dev",
-    "company": {
-      "name": "Acme Cloud Solutions",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 10,
-    "name": "Nikhil Gupta",
-    "username": "nikhil.gupta10",
-    "email": "nikhil.gupta@buildfast.in",
-    "address": {
-      "street": "Street 28",
-      "suite": "Suite 9",
-      "city": "Chennai",
-      "zipcode": "936031",
-      "geo": {
-        "lat": "20.1251",
-        "lng": "86.1218"
-      }
-    },
-    "phone": "+91 9890831162",
-    "website": "nikhilgupta.dev",
-    "company": {
-      "name": "Acme RPO Services",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 11,
-    "name": "Shruti Iyer",
-    "username": "shruti.iyer11",
-    "email": "shruti.iyer@techhub.in",
-    "address": {
-      "street": "Street 36",
-      "suite": "Suite 6",
-      "city": "Gurugram",
-      "zipcode": "475493",
-      "geo": {
-        "lat": "22.6402",
-        "lng": "73.6175"
-      }
-    },
-    "phone": "+91 9149435741",
-    "website": "shrutiiyer.dev",
-    "company": {
-      "name": "Acme Cloud Solutions",
+      "name": "Acme Commerce",
       "catchPhrase": "Custom web platforms built for scale",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 12,
-    "name": "Isha Singh",
-    "username": "isha.singh12",
-    "email": "isha.singh@acmecorp.in",
+    "id": 3,
+    "name": "Sowmya Pujari",
+    "username": "sowmya.pujari02",
+    "email": "sowmya.pujari@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/39.jpg",
     "address": {
-      "street": "Street 86",
-      "suite": "Suite 37",
-      "city": "Chennai",
-      "zipcode": "973085",
+      "street": "1094 Carter Rd Promenade",
+      "suite": "Apt 4",
+      "city": "Hindupur",
+      "zipcode": "51511",
       "geo": {
-        "lat": "29.1029",
-        "lng": "76.1576"
+        "lat": "-2.3751",
+        "lng": "170.9071"
       }
     },
-    "phone": "+91 9322623403",
-    "website": "ishasingh.dev",
+    "phone": "7298236907",
+    "website": "sowmyapujari.dev",
+    "company": {
+      "name": "Acme RPO Services",
+      "catchPhrase": "High-performance apps for iOS and Android",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Aarush Namnaik",
+    "username": "aarush.namnaik03",
+    "email": "aarush.namnaik@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/men/69.jpg",
+    "address": {
+      "street": "5348 Rani No Hajiro",
+      "suite": "Apt 44",
+      "city": "Mehsana",
+      "zipcode": "42182",
+      "geo": {
+        "lat": "-16.1631",
+        "lng": "56.7614"
+      }
+    },
+    "phone": "8140201502",
+    "website": "aarushnamnaik.dev",
     "company": {
       "name": "Acme Cloud Solutions",
+      "catchPhrase": "High-performance apps for iOS and Android",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Tanmay Shayana",
+    "username": "tanmay.shayana04",
+    "email": "tanmay.shayana@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/men/64.jpg",
+    "address": {
+      "street": "9642 Mint St",
+      "suite": "Apt 41",
+      "city": "Karawal Nagar",
+      "zipcode": "25640",
+      "geo": {
+        "lat": "-89.0227",
+        "lng": "-160.8749"
+      }
+    },
+    "phone": "7519111136",
+    "website": "tanmayshayana.dev",
+    "company": {
+      "name": "Acme AI Data Labs",
+      "catchPhrase": "End-to-end hiring for growing teams",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Lakshmi Nand",
+    "username": "lakshmi.nand05",
+    "email": "lakshmi.nand@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/70.jpg",
+    "address": {
+      "street": "3696 Raviwar Peth",
+      "suite": "Apt 11",
+      "city": "Bhavnagar",
+      "zipcode": "63904",
+      "geo": {
+        "lat": "15.2775",
+        "lng": "115.1354"
+      }
+    },
+    "phone": "7969430522",
+    "website": "lakshminand.dev",
+    "company": {
+      "name": "Innovate Systems",
+      "catchPhrase": "Automation and insight through applied AI",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Mangala Mathew",
+    "username": "mangala.mathew06",
+    "email": "mangala.mathew@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/25.jpg",
+    "address": {
+      "street": "3275 NAD X Rd",
+      "suite": "Apt 30",
+      "city": "Bharatpur",
+      "zipcode": "67467",
+      "geo": {
+        "lat": "2.5152",
+        "lng": "-113.2600"
+      }
+    },
+    "phone": "8509222550",
+    "website": "mangalamathew.dev",
+    "company": {
+      "name": "Acme Mobile",
+      "catchPhrase": "Secure cloud foundations for growth",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Yuvraj Dsouza",
+    "username": "yuvraj.dsouza07",
+    "email": "yuvraj.dsouza@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/men/72.jpg",
+    "address": {
+      "street": "9324 Linking Rd",
+      "suite": "Apt 3",
+      "city": "Narasaraopet",
+      "zipcode": "47029",
+      "geo": {
+        "lat": "-31.9832",
+        "lng": "139.3126"
+      }
+    },
+    "phone": "7705590067",
+    "website": "yuvrajdsouza.dev",
+    "company": {
+      "name": "Acme Web",
+      "catchPhrase": "Headless storefronts that convert faster",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Pratima Shroff",
+    "username": "pratima.shroff08",
+    "email": "pratima.shroff@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/69.jpg",
+    "address": {
+      "street": "7222 Carter Rd Promenade",
+      "suite": "Apt 20",
+      "city": "Pimpri-Chinchwad",
+      "zipcode": "85077",
+      "geo": {
+        "lat": "21.3258",
+        "lng": "-144.2478"
+      }
+    },
+    "phone": "9541152195",
+    "website": "pratimashroff.dev",
+    "company": {
+      "name": "Acme Mobile",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Nagesh Salian",
+    "username": "nagesh.salian09",
+    "email": "nagesh.salian@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+    "address": {
+      "street": "3351 Mall Rd",
+      "suite": "Apt 6",
+      "city": "Uluberia",
+      "zipcode": "20001",
+      "geo": {
+        "lat": "17.8095",
+        "lng": "143.4828"
+      }
+    },
+    "phone": "8283038509",
+    "website": "nageshsalian.dev",
+    "company": {
+      "name": "Acme RPO Services",
+      "catchPhrase": "High-performance apps for iOS and Android",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Sandhya Nayak",
+    "username": "sandhya.nayak10",
+    "email": "sandhya.nayak@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/46.jpg",
+    "address": {
+      "street": "1830 Rasta Peth",
+      "suite": "Apt 29",
+      "city": "Jorhat",
+      "zipcode": "86427",
+      "geo": {
+        "lat": "-84.0272",
+        "lng": "136.6703"
+      }
+    },
+    "phone": "7195535723",
+    "website": "sandhyanayak.dev",
+    "company": {
+      "name": "Acme RPO Services",
+      "catchPhrase": "Secure cloud foundations for growth",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Chaithra Gatty",
+    "username": "chaithra.gatty11",
+    "email": "chaithra.gatty@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+    "address": {
+      "street": "2887 Janpath",
+      "suite": "Apt 43",
+      "city": "Chinsurah",
+      "zipcode": "25215",
+      "geo": {
+        "lat": "38.9244",
+        "lng": "-35.1604"
+      }
+    },
+    "phone": "8865616576",
+    "website": "chaithragatty.dev",
+    "company": {
+      "name": "Acme Data",
       "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 13,
-    "name": "Karan Das",
-    "username": "karan.das13",
-    "email": "karan.das@acmecorp.in",
+    "name": "Taahira Chavare",
+    "username": "taahira.chavare12",
+    "email": "taahira.chavare@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
     "address": {
-      "street": "Street 53",
-      "suite": "Suite 34",
-      "city": "Pune",
-      "zipcode": "472512",
+      "street": "8140 Bhavani Peth",
+      "suite": "Apt 8",
+      "city": "Sri Ganganagar",
+      "zipcode": "15983",
       "geo": {
-        "lat": "29.4691",
-        "lng": "79.9382"
+        "lat": "56.6429",
+        "lng": "-161.9911"
       }
     },
-    "phone": "+91 9774586642",
-    "website": "karandas.dev",
+    "phone": "7616375878",
+    "website": "taahirachavare.dev",
     "company": {
-      "name": "Acme Data",
-      "catchPhrase": "End-to-end hiring for growing teams",
+      "name": "Acme Mobile",
+      "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 14,
-    "name": "Divya Bhatia",
-    "username": "divya.bhatia14",
-    "email": "divya.bhatia@innovate.co.in",
+    "name": "Shubha Tipparti",
+    "username": "shubha.tipparti13",
+    "email": "shubha.tipparti@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
     "address": {
-      "street": "Street 60",
-      "suite": "Suite 41",
-      "city": "Hyderabad",
-      "zipcode": "950399",
+      "street": "8600 NAD X Rd",
+      "suite": "Apt 44",
+      "city": "Thane",
+      "zipcode": "28824",
       "geo": {
-        "lat": "20.8117",
-        "lng": "73.3980"
+        "lat": "48.4580",
+        "lng": "-168.0806"
       }
     },
-    "phone": "+91 9252560137",
-    "website": "divyabhatia.dev",
+    "phone": "8504768125",
+    "website": "shubhatipparti.dev",
     "company": {
-      "name": "Acme Mobile",
+      "name": "TechHub Analytics",
       "catchPhrase": "High-performance apps for iOS and Android",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 15,
-    "name": "Amit Rao",
-    "username": "amit.rao15",
-    "email": "amit.rao@acmecorp.in",
+    "name": "Dhanashri Dhamdhame",
+    "username": "dhanashri.dhamdhame14",
+    "email": "dhanashri.dhamdhame@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/women/67.jpg",
     "address": {
-      "street": "Street 67",
-      "suite": "Suite 26",
-      "city": "Noida",
-      "zipcode": "636558",
+      "street": "5293 Rajpath",
+      "suite": "Apt 37",
+      "city": "Madhyamgram",
+      "zipcode": "61915",
       "geo": {
-        "lat": "19.8739",
-        "lng": "74.1563"
+        "lat": "11.0208",
+        "lng": "140.3304"
       }
     },
-    "phone": "+91 9681453554",
-    "website": "amitrao.dev",
+    "phone": "8465379528",
+    "website": "dhanashridhamdhame.dev",
     "company": {
-      "name": "TechHub Analytics",
-      "catchPhrase": "End-to-end hiring for growing teams",
+      "name": "Acme AI Data Labs",
+      "catchPhrase": "Secure cloud foundations for growth",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 16,
-    "name": "Aarti Verma",
-    "username": "aarti.verma16",
-    "email": "aarti.verma@techhub.in",
+    "name": "Sai Manjunath",
+    "username": "sai.manjunath15",
+    "email": "sai.manjunath@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/men/84.jpg",
     "address": {
-      "street": "Street 33",
-      "suite": "Suite 13",
-      "city": "Mumbai",
-      "zipcode": "434150",
+      "street": "7065 Shakespeare Sarani",
+      "suite": "Apt 22",
+      "city": "Jalna",
+      "zipcode": "26063",
       "geo": {
-        "lat": "23.2282",
-        "lng": "76.7557"
+        "lat": "14.9951",
+        "lng": "-60.6619"
       }
     },
-    "phone": "+91 9611029528",
-    "website": "aartiverma.dev",
+    "phone": "8687817871",
+    "website": "saimanjunath.dev",
     "company": {
       "name": "Acme Data",
-      "catchPhrase": "Headless storefronts that convert faster",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 17,
-    "name": "Tanya Mehta",
-    "username": "tanya.mehta17",
-    "email": "tanya.mehta@acmecorp.in",
-    "address": {
-      "street": "Street 58",
-      "suite": "Suite 28",
-      "city": "Hyderabad",
-      "zipcode": "483566",
-      "geo": {
-        "lat": "22.3062",
-        "lng": "86.3124"
-      }
-    },
-    "phone": "+91 9569294393",
-    "website": "tanyamehta.dev",
-    "company": {
-      "name": "Acme Web",
       "catchPhrase": "High-performance apps for iOS and Android",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 18,
-    "name": "Rohit Bose",
-    "username": "rohit.bose18",
-    "email": "rohit.bose@acmecorp.in",
+    "id": 17,
+    "name": "Jagdish Das",
+    "username": "jagdish.das16",
+    "email": "jagdish.das@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/men/66.jpg",
     "address": {
-      "street": "Street 14",
-      "suite": "Suite 8",
-      "city": "Kolkata",
-      "zipcode": "982849",
+      "street": "2537 Chaman Ganj",
+      "suite": "Apt 21",
+      "city": "Raichur",
+      "zipcode": "59437",
       "geo": {
-        "lat": "17.7666",
-        "lng": "79.1158"
+        "lat": "86.1182",
+        "lng": "135.2804"
       }
     },
-    "phone": "+91 9686133876",
-    "website": "rohitbose.dev",
+    "phone": "9902379323",
+    "website": "jagdishdas.dev",
     "company": {
-      "name": "Acme Cloud Solutions",
-      "catchPhrase": "Headless storefronts that convert faster",
+      "name": "Acme AI Data Labs",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Nayana Gamskar",
+    "username": "nayana.gamskar17",
+    "email": "nayana.gamskar@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+    "address": {
+      "street": "1954 Linking Rd",
+      "suite": "Apt 17",
+      "city": "Bardhaman",
+      "zipcode": "88363",
+      "geo": {
+        "lat": "-68.7693",
+        "lng": "162.6684"
+      }
+    },
+    "phone": "8171145769",
+    "website": "nayanagamskar.dev",
+    "company": {
+      "name": "Acme Support",
+      "catchPhrase": "End-to-end hiring for growing teams",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 19,
-    "name": "Tanya Menon",
-    "username": "tanya.menon19",
-    "email": "tanya.menon@techhub.in",
+    "name": "Shona Mathew",
+    "username": "shona.mathew18",
+    "email": "shona.mathew@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/86.jpg",
     "address": {
-      "street": "Street 22",
-      "suite": "Suite 22",
-      "city": "Pune",
-      "zipcode": "519239",
+      "street": "6622 Shanmugham Rd",
+      "suite": "Apt 26",
+      "city": "Tadepalligudem",
+      "zipcode": "95787",
       "geo": {
-        "lat": "26.7118",
-        "lng": "83.0836"
+        "lat": "-0.8853",
+        "lng": "-163.7662"
       }
     },
-    "phone": "+91 9196703120",
-    "website": "tanyamenon.dev",
+    "phone": "7174439841",
+    "website": "shonamathew.dev",
     "company": {
-      "name": "Acme Data",
+      "name": "Acme Commerce",
       "catchPhrase": "Custom web platforms built for scale",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 20,
-    "name": "Shruti Rao",
-    "username": "shruti.rao20",
-    "email": "shruti.rao@innovate.co.in",
+    "name": "Raj Andrade",
+    "username": "raj.andrade19",
+    "email": "raj.andrade@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/74.jpg",
     "address": {
-      "street": "Street 2",
-      "suite": "Suite 30",
-      "city": "Hyderabad",
-      "zipcode": "150749",
+      "street": "1648 Tank Bund Rd",
+      "suite": "Apt 26",
+      "city": "Machilipatnam",
+      "zipcode": "88119",
       "geo": {
-        "lat": "19.4227",
-        "lng": "80.2333"
+        "lat": "55.3733",
+        "lng": "102.0339"
       }
     },
-    "phone": "+91 9339612647",
-    "website": "shrutirao.dev",
+    "phone": "8637549620",
+    "website": "rajandrade.dev",
     "company": {
-      "name": "Acme Data",
-      "catchPhrase": "End-to-end hiring for growing teams",
+      "name": "Acme Cloud Solutions",
+      "catchPhrase": "Secure cloud foundations for growth",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 21,
-    "name": "Rahul Das",
-    "username": "rahul.das21",
-    "email": "rahul.das@acmecorp.in",
+    "name": "Kahaan Prabhakaran",
+    "username": "kahaan.prabhakaran20",
+    "email": "kahaan.prabhakaran@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
     "address": {
-      "street": "Street 99",
-      "suite": "Suite 2",
-      "city": "Chandigarh",
-      "zipcode": "139607",
+      "street": "6998 College St",
+      "suite": "Apt 45",
+      "city": "Salem",
+      "zipcode": "65482",
       "geo": {
-        "lat": "23.9928",
-        "lng": "80.6712"
+        "lat": "55.1724",
+        "lng": "54.3290"
       }
     },
-    "phone": "+91 9408869717",
-    "website": "rahuldas.dev",
+    "phone": "8193462482",
+    "website": "kahaanprabhakaran.dev",
     "company": {
-      "name": "Acme RPO Services",
-      "catchPhrase": "Custom web platforms built for scale",
+      "name": "Acme Web",
+      "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 22,
-    "name": "Rahul Rao",
-    "username": "rahul.rao22",
-    "email": "rahul.rao@innovate.co.in",
+    "name": "Nitesh Vernekar",
+    "username": "nitesh.vernekar21",
+    "email": "nitesh.vernekar@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/54.jpg",
     "address": {
-      "street": "Street 84",
-      "suite": "Suite 46",
-      "city": "Pune",
-      "zipcode": "748670",
+      "street": "8660 Rajpath",
+      "suite": "Apt 28",
+      "city": "Dhule",
+      "zipcode": "49022",
       "geo": {
-        "lat": "26.6910",
-        "lng": "87.6455"
+        "lat": "74.3388",
+        "lng": "-105.1220"
       }
     },
-    "phone": "+91 9872303884",
-    "website": "rahulrao.dev",
+    "phone": "9531215918",
+    "website": "niteshvernekar.dev",
     "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "End-to-end hiring for growing teams",
+      "name": "Acme Cloud Solutions",
+      "catchPhrase": "High-performance apps for iOS and Android",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 23,
-    "name": "Isha Desai",
-    "username": "isha.desai23",
-    "email": "isha.desai@techhub.in",
+    "name": "Nayana Bhardwaj",
+    "username": "nayana.bhardwaj22",
+    "email": "nayana.bhardwaj@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/25.jpg",
     "address": {
-      "street": "Street 39",
-      "suite": "Suite 10",
-      "city": "Jaipur",
-      "zipcode": "176724",
+      "street": "4559 Tank Bund Rd",
+      "suite": "Apt 44",
+      "city": "Shahjahanpur",
+      "zipcode": "64576",
       "geo": {
-        "lat": "13.2778",
-        "lng": "89.0683"
+        "lat": "71.9926",
+        "lng": "-44.1781"
       }
     },
-    "phone": "+91 9685785381",
-    "website": "ishadesai.dev",
+    "phone": "7014384238",
+    "website": "nayanabhardwaj.dev",
     "company": {
-      "name": "Acme Web",
-      "catchPhrase": "High-performance apps for iOS and Android",
+      "name": "Innovate Systems",
+      "catchPhrase": "Secure cloud foundations for growth",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 24,
-    "name": "Neha Bhatia",
-    "username": "neha.bhatia24",
-    "email": "neha.bhatia@techhub.in",
+    "name": "Nagraj Shet",
+    "username": "nagraj.shet23",
+    "email": "nagraj.shet@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/men/68.jpg",
     "address": {
-      "street": "Street 32",
-      "suite": "Suite 5",
-      "city": "Chandigarh",
-      "zipcode": "720720",
+      "street": "750 Dwaraka Nagar",
+      "suite": "Apt 43",
+      "city": "Kolkata",
+      "zipcode": "84423",
       "geo": {
-        "lat": "14.3457",
-        "lng": "80.1248"
+        "lat": "-52.3513",
+        "lng": "3.2757"
       }
     },
-    "phone": "+91 9574502214",
-    "website": "nehabhatia.dev",
-    "company": {
-      "name": "Acme Mobile",
-      "catchPhrase": "High-performance apps for iOS and Android",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 25,
-    "name": "Tanya Desai",
-    "username": "tanya.desai25",
-    "email": "tanya.desai@techhub.in",
-    "address": {
-      "street": "Street 64",
-      "suite": "Suite 24",
-      "city": "Chandigarh",
-      "zipcode": "743222",
-      "geo": {
-        "lat": "15.2111",
-        "lng": "87.9436"
-      }
-    },
-    "phone": "+91 9218576118",
-    "website": "tanyadesai.dev",
-    "company": {
-      "name": "Acme RPO Services",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 26,
-    "name": "Rajat Chopra",
-    "username": "rajat.chopra26",
-    "email": "rajat.chopra@innovate.co.in",
-    "address": {
-      "street": "Street 95",
-      "suite": "Suite 37",
-      "city": "Kochi",
-      "zipcode": "574043",
-      "geo": {
-        "lat": "14.8441",
-        "lng": "86.6796"
-      }
-    },
-    "phone": "+91 9622005563",
-    "website": "rajatchopra.dev",
+    "phone": "7099308979",
+    "website": "nagrajshet.dev",
     "company": {
       "name": "Acme AI Data Labs",
       "catchPhrase": "Automation and insight through applied AI",
@@ -600,137 +578,47 @@ export const mockUsers: User[] = [
     }
   },
   {
-    "id": 27,
-    "name": "Riya Desai",
-    "username": "riya.desai27",
-    "email": "riya.desai@acmecorp.in",
+    "id": 25,
+    "name": "Mehar Ramesh",
+    "username": "mehar.ramesh24",
+    "email": "mehar.ramesh@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
     "address": {
-      "street": "Street 33",
-      "suite": "Suite 44",
-      "city": "Gurugram",
-      "zipcode": "105661",
+      "street": "6506 Ranganathan St",
+      "suite": "Apt 11",
+      "city": "Thiruvananthapuram",
+      "zipcode": "94706",
       "geo": {
-        "lat": "19.1188",
-        "lng": "87.6612"
+        "lat": "-75.4271",
+        "lng": "165.9553"
       }
     },
-    "phone": "+91 9520317160",
-    "website": "riyadesai.dev",
+    "phone": "8244909114",
+    "website": "meharramesh.dev",
     "company": {
       "name": "Acme AI Data Labs",
-      "catchPhrase": "High-performance apps for iOS and Android",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 28,
-    "name": "Rahul Nair",
-    "username": "rahul.nair28",
-    "email": "rahul.nair@acmecorp.in",
-    "address": {
-      "street": "Street 37",
-      "suite": "Suite 13",
-      "city": "Jaipur",
-      "zipcode": "520782",
-      "geo": {
-        "lat": "26.9094",
-        "lng": "71.6429"
-      }
-    },
-    "phone": "+91 9368819946",
-    "website": "rahulnair.dev",
-    "company": {
-      "name": "Acme AI Data Labs",
-      "catchPhrase": "High-performance apps for iOS and Android",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 29,
-    "name": "Vikram Bose",
-    "username": "vikram.bose29",
-    "email": "vikram.bose@acmecorp.in",
-    "address": {
-      "street": "Street 16",
-      "suite": "Suite 37",
-      "city": "Chennai",
-      "zipcode": "553777",
-      "geo": {
-        "lat": "27.8048",
-        "lng": "83.3282"
-      }
-    },
-    "phone": "+91 9419535645",
-    "website": "vikrambose.dev",
-    "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "High-performance apps for iOS and Android",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 30,
-    "name": "Neha Sharma",
-    "username": "neha.sharma30",
-    "email": "neha.sharma@buildfast.in",
-    "address": {
-      "street": "Street 23",
-      "suite": "Suite 36",
-      "city": "Mumbai",
-      "zipcode": "429040",
-      "geo": {
-        "lat": "25.3142",
-        "lng": "76.3145"
-      }
-    },
-    "phone": "+91 9855859510",
-    "website": "nehasharma.dev",
-    "company": {
-      "name": "Innovate Systems",
       "catchPhrase": "Custom web platforms built for scale",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 31,
-    "name": "Rohan Iyer",
-    "username": "rohan.iyer31",
-    "email": "rohan.iyer@buildfast.in",
+    "id": 26,
+    "name": "Vandana Nair",
+    "username": "vandana.nair25",
+    "email": "vandana.nair@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
     "address": {
-      "street": "Street 31",
-      "suite": "Suite 3",
-      "city": "Chennai",
-      "zipcode": "385864",
+      "street": "8462 Bandstand Promenade",
+      "suite": "Apt 20",
+      "city": "Nellore",
+      "zipcode": "51791",
       "geo": {
-        "lat": "26.7445",
-        "lng": "72.4574"
+        "lat": "18.2316",
+        "lng": "121.8667"
       }
     },
-    "phone": "+91 9713293464",
-    "website": "rohaniyer.dev",
-    "company": {
-      "name": "Acme RPO Services",
-      "catchPhrase": "Secure cloud foundations for growth",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 32,
-    "name": "Riya Reddy",
-    "username": "riya.reddy32",
-    "email": "riya.reddy@techhub.in",
-    "address": {
-      "street": "Street 57",
-      "suite": "Suite 12",
-      "city": "Jaipur",
-      "zipcode": "953509",
-      "geo": {
-        "lat": "24.2262",
-        "lng": "82.0863"
-      }
-    },
-    "phone": "+91 9357187194",
-    "website": "riyareddy.dev",
+    "phone": "8556945025",
+    "website": "vandananair.dev",
     "company": {
       "name": "Acme Support",
       "catchPhrase": "Automation and insight through applied AI",
@@ -738,114 +626,191 @@ export const mockUsers: User[] = [
     }
   },
   {
-    "id": 33,
-    "name": "Amit Patel",
-    "username": "amit.patel33",
-    "email": "amit.patel@techhub.in",
+    "id": 27,
+    "name": "Tanmay Rajesh",
+    "username": "tanmay.rajesh26",
+    "email": "tanmay.rajesh@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/38.jpg",
     "address": {
-      "street": "Street 52",
-      "suite": "Suite 42",
-      "city": "Jaipur",
-      "zipcode": "312402",
+      "street": "141 Mall Rd",
+      "suite": "Apt 37",
+      "city": "Unnao",
+      "zipcode": "14442",
       "geo": {
-        "lat": "20.8551",
-        "lng": "86.2333"
+        "lat": "-14.1891",
+        "lng": "122.1737"
       }
     },
-    "phone": "+91 9776375814",
-    "website": "amitpatel.dev",
+    "phone": "8116557777",
+    "website": "tanmayrajesh.dev",
+    "company": {
+      "name": "Acme Web",
+      "catchPhrase": "Headless storefronts that convert faster",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Vivek Gatty",
+    "username": "vivek.gatty27",
+    "email": "vivek.gatty@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/64.jpg",
+    "address": {
+      "street": "2772 Dwaraka Nagar",
+      "suite": "Apt 36",
+      "city": "Mirzapur",
+      "zipcode": "59764",
+      "geo": {
+        "lat": "22.8876",
+        "lng": "124.4977"
+      }
+    },
+    "phone": "9919379778",
+    "website": "vivekgatty.dev",
     "company": {
       "name": "Acme Data",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Hitesh Babu",
+    "username": "hitesh.babu28",
+    "email": "hitesh.babu@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+    "address": {
+      "street": "9420 Rajaji Salai",
+      "suite": "Apt 7",
+      "city": "Sangli",
+      "zipcode": "30449",
+      "geo": {
+        "lat": "-1.0802",
+        "lng": "-92.3430"
+      }
+    },
+    "phone": "9708965219",
+    "website": "hiteshbabu.dev",
+    "company": {
+      "name": "Innovate Systems",
+      "catchPhrase": "Headless storefronts that convert faster",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 30,
+    "name": "Reshma Kaur",
+    "username": "reshma.kaur29",
+    "email": "reshma.kaur@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/62.jpg",
+    "address": {
+      "street": "5223 Bhavani Peth",
+      "suite": "Apt 33",
+      "city": "Darbhanga",
+      "zipcode": "53896",
+      "geo": {
+        "lat": "-3.1450",
+        "lng": "-159.8718"
+      }
+    },
+    "phone": "7805381652",
+    "website": "reshmakaur.dev",
+    "company": {
+      "name": "TechHub Analytics",
       "catchPhrase": "High-performance apps for iOS and Android",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 34,
-    "name": "Rahul Reddy",
-    "username": "rahul.reddy34",
-    "email": "rahul.reddy@acmecorp.in",
+    "id": 31,
+    "name": "Saheli Nand",
+    "username": "saheli.nand30",
+    "email": "saheli.nand@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
     "address": {
-      "street": "Street 19",
-      "suite": "Suite 46",
-      "city": "Chandigarh",
-      "zipcode": "649860",
+      "street": "6684 Shakespeare Sarani",
+      "suite": "Apt 21",
+      "city": "Kavali",
+      "zipcode": "42752",
       "geo": {
-        "lat": "20.2585",
-        "lng": "77.3908"
+        "lat": "-41.6229",
+        "lng": "89.5886"
       }
     },
-    "phone": "+91 9203545365",
-    "website": "rahulreddy.dev",
-    "company": {
-      "name": "Acme RPO Services",
-      "catchPhrase": "Secure cloud foundations for growth",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 35,
-    "name": "Rahul Iyer",
-    "username": "rahul.iyer35",
-    "email": "rahul.iyer@innovate.co.in",
-    "address": {
-      "street": "Street 8",
-      "suite": "Suite 7",
-      "city": "Hyderabad",
-      "zipcode": "140183",
-      "geo": {
-        "lat": "10.4354",
-        "lng": "79.4893"
-      }
-    },
-    "phone": "+91 9332547118",
-    "website": "rahuliyer.dev",
+    "phone": "7299561033",
+    "website": "sahelinand.dev",
     "company": {
       "name": "Innovate Systems",
-      "catchPhrase": "Automation and insight through applied AI",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 36,
-    "name": "Aditya Joshi",
-    "username": "aditya.joshi36",
-    "email": "aditya.joshi@acmecorp.in",
-    "address": {
-      "street": "Street 24",
-      "suite": "Suite 4",
-      "city": "Mumbai",
-      "zipcode": "453882",
-      "geo": {
-        "lat": "10.7627",
-        "lng": "78.4281"
-      }
-    },
-    "phone": "+91 9316819838",
-    "website": "adityajoshi.dev",
-    "company": {
-      "name": "Acme Commerce",
       "catchPhrase": "Secure cloud foundations for growth",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 37,
-    "name": "Rohan Kumar",
-    "username": "rohan.kumar37",
-    "email": "rohan.kumar@acmecorp.in",
+    "id": 32,
+    "name": "Sai Kaur",
+    "username": "sai.kaur31",
+    "email": "sai.kaur@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/61.jpg",
     "address": {
-      "street": "Street 80",
-      "suite": "Suite 7",
-      "city": "Noida",
-      "zipcode": "248477",
+      "street": "8355 Sao Tome Old Quarter",
+      "suite": "Apt 15",
+      "city": "Panipat",
+      "zipcode": "15724",
       "geo": {
-        "lat": "24.3055",
-        "lng": "72.3353"
+        "lat": "-60.6906",
+        "lng": "150.9269"
       }
     },
-    "phone": "+91 9637919721",
-    "website": "rohankumar.dev",
+    "phone": "7897966084",
+    "website": "saikaur.dev",
+    "company": {
+      "name": "Acme AI Data Labs",
+      "catchPhrase": "Headless storefronts that convert faster",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Manasa Saniel",
+    "username": "manasa.saniel32",
+    "email": "manasa.saniel@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/88.jpg",
+    "address": {
+      "street": "789 Fontainhas",
+      "suite": "Apt 24",
+      "city": "Madanapalle",
+      "zipcode": "47300",
+      "geo": {
+        "lat": "-26.5586",
+        "lng": "-78.9705"
+      }
+    },
+    "phone": "9732138709",
+    "website": "manasasaniel.dev",
+    "company": {
+      "name": "Acme Support",
+      "catchPhrase": "Headless storefronts that convert faster",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Shrishti Chavare",
+    "username": "shrishti.chavare33",
+    "email": "shrishti.chavare@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/women/27.jpg",
+    "address": {
+      "street": "9338 Shivajinagar",
+      "suite": "Apt 30",
+      "city": "Mysore",
+      "zipcode": "29000",
+      "geo": {
+        "lat": "-33.8381",
+        "lng": "76.1119"
+      }
+    },
+    "phone": "8984750087",
+    "website": "shrishtichavare.dev",
     "company": {
       "name": "TechHub Analytics",
       "catchPhrase": "Automation and insight through applied AI",
@@ -853,275 +818,215 @@ export const mockUsers: User[] = [
     }
   },
   {
-    "id": 38,
-    "name": "Riya Bhatia",
-    "username": "riya.bhatia38",
-    "email": "riya.bhatia@techhub.in",
+    "id": 35,
+    "name": "Hrithik Kavser",
+    "username": "hrithik.kavser34",
+    "email": "hrithik.kavser@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/55.jpg",
     "address": {
-      "street": "Street 96",
-      "suite": "Suite 30",
-      "city": "Jaipur",
-      "zipcode": "247067",
+      "street": "8228 Santhekatte",
+      "suite": "Apt 38",
+      "city": "Saharsa",
+      "zipcode": "50800",
       "geo": {
-        "lat": "21.8038",
-        "lng": "76.7569"
+        "lat": "-23.9427",
+        "lng": "92.4265"
       }
     },
-    "phone": "+91 9461917399",
-    "website": "riyabhatia.dev",
+    "phone": "8831825503",
+    "website": "hrithikkavser.dev",
     "company": {
-      "name": "Acme Cloud Solutions",
+      "name": "Acme AI Data Labs",
       "catchPhrase": "Automation and insight through applied AI",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 36,
+    "name": "Shona Prajapati",
+    "username": "shona.prajapati35",
+    "email": "shona.prajapati@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/60.jpg",
+    "address": {
+      "street": "6152 Coaker's Walk",
+      "suite": "Apt 50",
+      "city": "Uluberia",
+      "zipcode": "50489",
+      "geo": {
+        "lat": "29.2300",
+        "lng": "-127.3790"
+      }
+    },
+    "phone": "9355506006",
+    "website": "shonaprajapati.dev",
+    "company": {
+      "name": "Innovate Systems",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 37,
+    "name": "Indrajit Babu",
+    "username": "indrajit.babu36",
+    "email": "indrajit.babu@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/men/98.jpg",
+    "address": {
+      "street": "334 Tank Bund Rd",
+      "suite": "Apt 33",
+      "city": "Ulhasnagar",
+      "zipcode": "82855",
+      "geo": {
+        "lat": "85.8072",
+        "lng": "-151.0091"
+      }
+    },
+    "phone": "9784486358",
+    "website": "indrajitbabu.dev",
+    "company": {
+      "name": "Acme Web",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 38,
+    "name": "Dinella Bhardwaj",
+    "username": "dinella.bhardwaj37",
+    "email": "dinella.bhardwaj@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+    "address": {
+      "street": "7338 Shanmugham Rd",
+      "suite": "Apt 32",
+      "city": "Shimla",
+      "zipcode": "59681",
+      "geo": {
+        "lat": "10.5979",
+        "lng": "-147.9292"
+      }
+    },
+    "phone": "7373251356",
+    "website": "dinellabhardwaj.dev",
+    "company": {
+      "name": "Innovate Systems",
+      "catchPhrase": "Secure cloud foundations for growth",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 39,
-    "name": "Vikram Mehta",
-    "username": "vikram.mehta39",
-    "email": "vikram.mehta@innovate.co.in",
+    "name": "Dinella Shroff",
+    "username": "dinella.shroff38",
+    "email": "dinella.shroff@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
     "address": {
-      "street": "Street 39",
-      "suite": "Suite 8",
-      "city": "Chennai",
-      "zipcode": "933884",
+      "street": "4243 Tripolia Bazar",
+      "suite": "Apt 29",
+      "city": "Bangalore",
+      "zipcode": "66543",
       "geo": {
-        "lat": "22.9041",
-        "lng": "72.9332"
+        "lat": "-29.4519",
+        "lng": "50.5725"
       }
     },
-    "phone": "+91 9873002269",
-    "website": "vikrammehta.dev",
+    "phone": "9912941108",
+    "website": "dinellashroff.dev",
     "company": {
-      "name": "Acme Web",
-      "catchPhrase": "Headless storefronts that convert faster",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 40,
-    "name": "Divya Menon",
-    "username": "divya.menon40",
-    "email": "divya.menon@techhub.in",
-    "address": {
-      "street": "Street 77",
-      "suite": "Suite 43",
-      "city": "Chandigarh",
-      "zipcode": "410149",
-      "geo": {
-        "lat": "21.4811",
-        "lng": "87.8083"
-      }
-    },
-    "phone": "+91 9932365805",
-    "website": "divyamenon.dev",
-    "company": {
-      "name": "Acme Data",
+      "name": "Acme Cloud Solutions",
       "catchPhrase": "High-performance apps for iOS and Android",
       "bs": "enterprise solutions"
     }
   },
   {
-    "id": 41,
-    "name": "Pooja Bhatia",
-    "username": "pooja.bhatia41",
-    "email": "pooja.bhatia@acmecorp.in",
+    "id": 40,
+    "name": "Amol Singh",
+    "username": "amol.singh39",
+    "email": "amol.singh@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
     "address": {
-      "street": "Street 75",
-      "suite": "Suite 50",
-      "city": "Bengaluru",
-      "zipcode": "610572",
+      "street": "9772 Chaman Ganj",
+      "suite": "Apt 7",
+      "city": "Ongole",
+      "zipcode": "80199",
       "geo": {
-        "lat": "16.7352",
-        "lng": "79.1176"
+        "lat": "-88.4371",
+        "lng": "11.7277"
       }
     },
-    "phone": "+91 9296889280",
-    "website": "poojabhatia.dev",
+    "phone": "7130446380",
+    "website": "amolsingh.dev",
     "company": {
-      "name": "Acme Cloud Solutions",
-      "catchPhrase": "Automation and insight through applied AI",
+      "name": "Acme Commerce",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 41,
+    "name": "Nakul Kaur",
+    "username": "nakul.kaur40",
+    "email": "nakul.kaur@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/98.jpg",
+    "address": {
+      "street": "6788 College St",
+      "suite": "Apt 2",
+      "city": "Latur",
+      "zipcode": "94800",
+      "geo": {
+        "lat": "-87.2963",
+        "lng": "-7.3355"
+      }
+    },
+    "phone": "7690457785",
+    "website": "nakulkaur.dev",
+    "company": {
+      "name": "Acme Support",
+      "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 42,
-    "name": "Vikram Iyer",
-    "username": "vikram.iyer42",
-    "email": "vikram.iyer@innovate.co.in",
+    "name": "Harini Gupta",
+    "username": "harini.gupta41",
+    "email": "harini.gupta@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/women/17.jpg",
     "address": {
-      "street": "Street 36",
-      "suite": "Suite 21",
-      "city": "Jaipur",
-      "zipcode": "232293",
+      "street": "4452 Commercial St",
+      "suite": "Apt 1",
+      "city": "Mirzapur",
+      "zipcode": "75898",
       "geo": {
-        "lat": "20.2766",
-        "lng": "70.2326"
+        "lat": "-32.5662",
+        "lng": "-168.8810"
       }
     },
-    "phone": "+91 9593101173",
-    "website": "vikramiyer.dev",
+    "phone": "9550952348",
+    "website": "harinigupta.dev",
     "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "Secure cloud foundations for growth",
+      "name": "Acme Mobile",
+      "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }
   },
   {
     "id": 43,
-    "name": "Aditya Gupta",
-    "username": "aditya.gupta43",
-    "email": "aditya.gupta@buildfast.in",
+    "name": "Raghav Saldanha",
+    "username": "raghav.saldanha42",
+    "email": "raghav.saldanha@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/men/87.jpg",
     "address": {
-      "street": "Street 73",
-      "suite": "Suite 6",
-      "city": "Kolkata",
-      "zipcode": "541330",
+      "street": "6435 Lamington Rd",
+      "suite": "Apt 42",
+      "city": "Narasaraopet",
+      "zipcode": "14913",
       "geo": {
-        "lat": "29.2568",
-        "lng": "84.7603"
+        "lat": "11.6364",
+        "lng": "54.2149"
       }
     },
-    "phone": "+91 9615937371",
-    "website": "adityagupta.dev",
-    "company": {
-      "name": "Acme Support",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 44,
-    "name": "Rohan Patel",
-    "username": "rohan.patel44",
-    "email": "rohan.patel@innovate.co.in",
-    "address": {
-      "street": "Street 78",
-      "suite": "Suite 13",
-      "city": "Ahmedabad",
-      "zipcode": "714384",
-      "geo": {
-        "lat": "14.9155",
-        "lng": "80.2794"
-      }
-    },
-    "phone": "+91 9468392914",
-    "website": "rohanpatel.dev",
-    "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "Headless storefronts that convert faster",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 45,
-    "name": "Tanya Joshi",
-    "username": "tanya.joshi45",
-    "email": "tanya.joshi@buildfast.in",
-    "address": {
-      "street": "Street 92",
-      "suite": "Suite 8",
-      "city": "Bengaluru",
-      "zipcode": "632801",
-      "geo": {
-        "lat": "21.0809",
-        "lng": "73.5798"
-      }
-    },
-    "phone": "+91 9993518642",
-    "website": "tanyajoshi.dev",
-    "company": {
-      "name": "Acme Mobile",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 46,
-    "name": "Kavya Joshi",
-    "username": "kavya.joshi46",
-    "email": "kavya.joshi@buildfast.in",
-    "address": {
-      "street": "Street 96",
-      "suite": "Suite 31",
-      "city": "Chennai",
-      "zipcode": "693257",
-      "geo": {
-        "lat": "10.9846",
-        "lng": "88.2042"
-      }
-    },
-    "phone": "+91 9768031337",
-    "website": "kavyajoshi.dev",
-    "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "Headless storefronts that convert faster",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 47,
-    "name": "Siddharth Nair",
-    "username": "siddharth.nair47",
-    "email": "siddharth.nair@buildfast.in",
-    "address": {
-      "street": "Street 83",
-      "suite": "Suite 30",
-      "city": "Pune",
-      "zipcode": "182337",
-      "geo": {
-        "lat": "23.6581",
-        "lng": "85.0124"
-      }
-    },
-    "phone": "+91 9298082244",
-    "website": "siddharthnair.dev",
-    "company": {
-      "name": "Acme Web",
-      "catchPhrase": "Secure cloud foundations for growth",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 48,
-    "name": "Neha Jain",
-    "username": "neha.jain48",
-    "email": "neha.jain@buildfast.in",
-    "address": {
-      "street": "Street 9",
-      "suite": "Suite 17",
-      "city": "Jaipur",
-      "zipcode": "412365",
-      "geo": {
-        "lat": "13.3226",
-        "lng": "84.6536"
-      }
-    },
-    "phone": "+91 9179168138",
-    "website": "nehajain.dev",
-    "company": {
-      "name": "Innovate Systems",
-      "catchPhrase": "End-to-end hiring for growing teams",
-      "bs": "enterprise solutions"
-    }
-  },
-  {
-    "id": 49,
-    "name": "Rohan Kumar",
-    "username": "rohan.kumar49",
-    "email": "rohan.kumar@acmecorp.in",
-    "address": {
-      "street": "Street 53",
-      "suite": "Suite 42",
-      "city": "Jaipur",
-      "zipcode": "190610",
-      "geo": {
-        "lat": "17.9654",
-        "lng": "86.2287"
-      }
-    },
-    "phone": "+91 9776265510",
-    "website": "rohankumar.dev",
+    "phone": "9646082206",
+    "website": "raghavsaldanha.dev",
     "company": {
       "name": "Acme RPO Services",
       "catchPhrase": "Custom web platforms built for scale",
@@ -1129,24 +1034,169 @@ export const mockUsers: User[] = [
     }
   },
   {
-    "id": 50,
-    "name": "Tanya Mehta",
-    "username": "tanya.mehta50",
-    "email": "tanya.mehta@buildfast.in",
+    "id": 44,
+    "name": "Saisha Mathew",
+    "username": "saisha.mathew43",
+    "email": "saisha.mathew@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/41.jpg",
     "address": {
-      "street": "Street 55",
-      "suite": "Suite 44",
-      "city": "Kolkata",
-      "zipcode": "433977",
+      "street": "756 Rani No Hajiro",
+      "suite": "Apt 30",
+      "city": "Malegaon",
+      "zipcode": "94072",
       "geo": {
-        "lat": "24.5383",
-        "lng": "81.2226"
+        "lat": "-12.7428",
+        "lng": "-67.1068"
       }
     },
-    "phone": "+91 9685427262",
-    "website": "tanyamehta.dev",
+    "phone": "9276736350",
+    "website": "saishamathew.dev",
     "company": {
-      "name": "Acme Commerce",
+      "name": "Acme Data",
+      "catchPhrase": "Secure cloud foundations for growth",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 45,
+    "name": "Tejas Kaur",
+    "username": "tejas.kaur44",
+    "email": "tejas.kaur@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/men/94.jpg",
+    "address": {
+      "street": "673 Gali Paranthe Wali",
+      "suite": "Apt 45",
+      "city": "Tenali",
+      "zipcode": "87782",
+      "geo": {
+        "lat": "75.2320",
+        "lng": "-6.8047"
+      }
+    },
+    "phone": "7833315439",
+    "website": "tejaskaur.dev",
+    "company": {
+      "name": "Acme Support",
+      "catchPhrase": "High-performance apps for iOS and Android",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 46,
+    "name": "Chaithra Mathew",
+    "username": "chaithra.mathew45",
+    "email": "chaithra.mathew@acmecorp.in",
+    "avatar": "https://randomuser.me/api/portraits/women/78.jpg",
+    "address": {
+      "street": "6645 Altamount Rd",
+      "suite": "Apt 30",
+      "city": "Hospet",
+      "zipcode": "79047",
+      "geo": {
+        "lat": "-78.1230",
+        "lng": "146.7030"
+      }
+    },
+    "phone": "7968078739",
+    "website": "chaithramathew.dev",
+    "company": {
+      "name": "Acme Data",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 47,
+    "name": "Kalpit Chiplunkar",
+    "username": "kalpit.chiplunkar46",
+    "email": "kalpit.chiplunkar@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/men/80.jpg",
+    "address": {
+      "street": "1410 Altamount Rd",
+      "suite": "Apt 14",
+      "city": "Chinsurah",
+      "zipcode": "67360",
+      "geo": {
+        "lat": "-6.3484",
+        "lng": "-121.5152"
+      }
+    },
+    "phone": "9691261915",
+    "website": "kalpitchiplunkar.dev",
+    "company": {
+      "name": "Acme Mobile",
+      "catchPhrase": "Headless storefronts that convert faster",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 48,
+    "name": "Kavitha Mardhekar",
+    "username": "kavitha.mardhekar47",
+    "email": "kavitha.mardhekar@techhub.in",
+    "avatar": "https://randomuser.me/api/portraits/women/58.jpg",
+    "address": {
+      "street": "3182 Naiduthota",
+      "suite": "Apt 8",
+      "city": "Parbhani",
+      "zipcode": "97514",
+      "geo": {
+        "lat": "-25.2078",
+        "lng": "-162.3069"
+      }
+    },
+    "phone": "9976889127",
+    "website": "kavithamardhekar.dev",
+    "company": {
+      "name": "Acme Mobile",
+      "catchPhrase": "Custom web platforms built for scale",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Reshma Rai",
+    "username": "reshma.rai48",
+    "email": "reshma.rai@buildfast.in",
+    "avatar": "https://randomuser.me/api/portraits/women/43.jpg",
+    "address": {
+      "street": "3732 Rajpath",
+      "suite": "Apt 21",
+      "city": "Latur",
+      "zipcode": "10788",
+      "geo": {
+        "lat": "42.5527",
+        "lng": "145.5458"
+      }
+    },
+    "phone": "8595134783",
+    "website": "reshmarai.dev",
+    "company": {
+      "name": "Acme RPO Services",
+      "catchPhrase": "Automation and insight through applied AI",
+      "bs": "enterprise solutions"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Ajith Anchan",
+    "username": "ajith.anchan49",
+    "email": "ajith.anchan@innovate.co.in",
+    "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+    "address": {
+      "street": "8860 Sampige Rd",
+      "suite": "Apt 17",
+      "city": "Jamalpur",
+      "zipcode": "22462",
+      "geo": {
+        "lat": "28.9719",
+        "lng": "117.0878"
+      }
+    },
+    "phone": "7250591436",
+    "website": "ajithanchan.dev",
+    "company": {
+      "name": "Acme Mobile",
       "catchPhrase": "Headless storefronts that convert faster",
       "bs": "enterprise solutions"
     }

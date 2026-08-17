@@ -13,8 +13,8 @@ interface UserCardProps {
 }
 
 export function UserCard({ user }: UserCardProps) {
-  // Generate a placeholder avatar using pravatar for realistic faces
-  const avatarUrl = `https://i.pravatar.cc/150?u=${user.id}`;
+  // Use the Indian picture from mock data, fallback to pravatar
+  const avatarUrl = user.avatar || `https://i.pravatar.cc/150?u=${user.id}`;
   const initials = user.name.split(' ').map(n => n[0]).join('').substring(0, 2);
 
   return (
