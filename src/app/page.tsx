@@ -16,26 +16,26 @@ export default async function HomePage() {
       <div className="flex flex-col lg:flex-row gap-12 mb-16 pt-8">
         <div className="flex flex-col max-w-3xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-muted/50 text-muted-foreground w-fit mb-8 border font-semibold text-xs tracking-widest uppercase">
-            Built for ambitious teams
+            Built for modern organizations
           </div>
           
           <h1 className="text-5xl md:text-6xl lg:text-[5rem] font-bold tracking-tight text-foreground leading-[1.05] mb-6">
-            Financial-grade<br />
-            software engineering<br />
-            for modern businesses.
+            Enterprise-grade<br />
+            user directory<br />
+            for growing teams.
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-10 leading-relaxed font-medium">
-            Entelligo helps teams launch secure products, automate complex workflows, and scale confidently across web, cloud, and AI.
+            Seamlessly search, connect, and collaborate with professionals across your entire organization using our lightning-fast platform.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <Button size="lg" className="rounded-full px-8 h-14 font-semibold text-base bg-foreground text-background hover:bg-foreground/90 gap-2">
-              Schedule a strategy call
+              Browse Directory
               <ArrowRight className="w-4 h-4" />
             </Button>
             <Button variant="outline" size="lg" className="rounded-full px-8 h-14 font-semibold text-base gap-2">
-              Explore case studies
+              View Documentation
               <ArrowUpRight className="w-4 h-4 text-muted-foreground" />
             </Button>
           </div>
@@ -48,8 +48,8 @@ export default async function HomePage() {
               <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=4" alt="Avatar" />
             </div>
             <div className="flex flex-col">
-              <span className="text-sm font-bold">160+ founders and operators trust Entelligo</span>
-              <span className="text-xs text-muted-foreground font-medium">Ship faster, scale safely, and support growth.</span>
+              <span className="text-sm font-bold">1,000+ professionals trust UserHub</span>
+              <span className="text-xs text-muted-foreground font-medium">Find people faster, scale securely, and support growth.</span>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ export const mockUsers: User[] = [
     id: 1,
     name: "Arjun Sharma",
     username: "arjun.sharma",
-    email: "arjun.sharma@entelligo.in",
+    email: "arjun.sharma@acmecorp.in",
     address: {
       street: "MG Road",
       suite: "Level 4, Prestige Tower",
@@ -16,7 +16,7 @@ export const mockUsers: User[] = [
     phone: "+91 98765 43210",
     website: "arjunsharma.dev",
     company: {
-      name: "Entelligo Cloud Solutions",
+      name: "Acme Cloud Solutions",
       catchPhrase: "Secure cloud foundations for growth",
       bs: "cloud architecture"
     }
@@ -25,7 +25,7 @@ export const mockUsers: User[] = [
     id: 2,
     name: "Priya Patel",
     username: "priya.p",
-    email: "priya.patel@entelligo.in",
+    email: "priya.patel@acmecorp.in",
     address: {
       street: "Bandra Kurla Complex",
       suite: "Block G",
@@ -36,7 +36,7 @@ export const mockUsers: User[] = [
     phone: "+91 91234 56789",
     website: "priya-ml.co.in",
     company: {
-      name: "Entelligo AI Data Labs",
+      name: "Acme AI Data Labs",
       catchPhrase: "Automation and insight through applied AI",
       bs: "machine learning"
     }
@@ -45,7 +45,7 @@ export const mockUsers: User[] = [
     id: 3,
     name: "Vikram Singh",
     username: "vikramsingh_",
-    email: "vikram.s@entelligo.in",
+    email: "vikram.s@acmecorp.in",
     address: {
       street: "Cyber City",
       suite: "DLF Phase 2",
@@ -56,7 +56,7 @@ export const mockUsers: User[] = [
     phone: "+91 99887 76655",
     website: "vsingh.tech",
     company: {
-      name: "Entelligo RPO Services",
+      name: "Acme RPO Services",
       catchPhrase: "End-to-end hiring for growing teams",
       bs: "recruitment outsourcing"
     }
@@ -65,7 +65,7 @@ export const mockUsers: User[] = [
     id: 4,
     name: "Ananya Iyer",
     username: "ananya.iyer",
-    email: "aiyer@entelligo.in",
+    email: "aiyer@acmecorp.in",
     address: {
       street: "OMR IT Expressway",
       suite: "Tech Park 3",
@@ -76,7 +76,7 @@ export const mockUsers: User[] = [
     phone: "+91 98450 12345",
     website: "ananyaiyer.in",
     company: {
-      name: "Entelligo Mobile",
+      name: "Acme Mobile",
       catchPhrase: "High-performance apps for iOS and Android",
       bs: "mobile development"
     }
@@ -85,7 +85,7 @@ export const mockUsers: User[] = [
     id: 5,
     name: "Rahul Desai",
     username: "rahul.desai",
-    email: "rdesai@entelligo.in",
+    email: "rdesai@acmecorp.in",
     address: {
       street: "Hinjewadi Phase 1",
       suite: "Rajiv Gandhi Infotech Park",
@@ -96,7 +96,7 @@ export const mockUsers: User[] = [
     phone: "+91 88776 65544",
     website: "rahuldesai.net",
     company: {
-      name: "Entelligo Commerce",
+      name: "Acme Commerce",
       catchPhrase: "Headless storefronts that convert faster",
       bs: "e-commerce solutions"
     }
@@ -105,7 +105,7 @@ export const mockUsers: User[] = [
     id: 6,
     name: "Sneha Reddy",
     username: "snehar",
-    email: "sneha.reddy@entelligo.in",
+    email: "sneha.reddy@acmecorp.in",
     address: {
       street: "HITEC City",
       suite: "Madhapur",
@@ -116,7 +116,7 @@ export const mockUsers: User[] = [
     phone: "+91 99001 12233",
     website: "snehareddy.design",
     company: {
-      name: "Entelligo Web",
+      name: "Acme Web",
       catchPhrase: "Custom web platforms built for scale",
       bs: "web development"
     }
@@ -125,7 +125,7 @@ export const mockUsers: User[] = [
     id: 7,
     name: "Rohan Gupta",
     username: "rgupta",
-    email: "rohan.gupta@entelligo.in",
+    email: "rohan.gupta@acmecorp.in",
     address: {
       street: "Sector 62",
       suite: "Logix Cyber Park",
@@ -136,7 +136,7 @@ export const mockUsers: User[] = [
     phone: "+91 99112 23344",
     website: "rohangupta.com",
     company: {
-      name: "Entelligo Support",
+      name: "Acme Support",
       catchPhrase: "Jira setup, workflows, and admin support",
       bs: "it support"
     }
@@ -145,7 +145,7 @@ export const mockUsers: User[] = [
     id: 8,
     name: "Kavya Menon",
     username: "kavya.m",
-    email: "kavya.menon@entelligo.in",
+    email: "kavya.menon@acmecorp.in",
     address: {
       street: "Infopark",
       suite: "Kakkanad",
@@ -156,7 +156,7 @@ export const mockUsers: User[] = [
     phone: "+91 98877 66554",
     website: "kavyamenon.in",
     company: {
-      name: "Entelligo Data",
+      name: "Acme Data",
       catchPhrase: "Building systems that scale together",
       bs: "data architecture"
     }
