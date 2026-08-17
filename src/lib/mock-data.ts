@@ -6,7 +6,7 @@ export const mockUsers: User[] = [
     "name": "Vaani Saha",
     "username": "vaani.saha00",
     "email": "vaani.saha@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/8.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=11",
     "address": {
       "street": "8496 Lindsay St",
       "suite": "Apt 18",
@@ -30,7 +30,7 @@ export const mockUsers: User[] = [
     "name": "Sarthak Kini",
     "username": "sarthak.kini01",
     "email": "sarthak.kini@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/men/28.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=13",
     "address": {
       "street": "7800 Carter Rd Promenade",
       "suite": "Apt 41",
@@ -54,7 +54,7 @@ export const mockUsers: User[] = [
     "name": "Sowmya Pujari",
     "username": "sowmya.pujari02",
     "email": "sowmya.pujari@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/39.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=14",
     "address": {
       "street": "1094 Carter Rd Promenade",
       "suite": "Apt 4",
@@ -78,7 +78,7 @@ export const mockUsers: User[] = [
     "name": "Aarush Namnaik",
     "username": "aarush.namnaik03",
     "email": "aarush.namnaik@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/men/69.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=33",
     "address": {
       "street": "5348 Rani No Hajiro",
       "suite": "Apt 44",
@@ -102,7 +102,7 @@ export const mockUsers: User[] = [
     "name": "Tanmay Shayana",
     "username": "tanmay.shayana04",
     "email": "tanmay.shayana@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/men/64.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=53",
     "address": {
       "street": "9642 Mint St",
       "suite": "Apt 41",
@@ -126,7 +126,7 @@ export const mockUsers: User[] = [
     "name": "Lakshmi Nand",
     "username": "lakshmi.nand05",
     "email": "lakshmi.nand@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/70.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=59",
     "address": {
       "street": "3696 Raviwar Peth",
       "suite": "Apt 11",
@@ -150,7 +150,7 @@ export const mockUsers: User[] = [
     "name": "Mangala Mathew",
     "username": "mangala.mathew06",
     "email": "mangala.mathew@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/25.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=60",
     "address": {
       "street": "3275 NAD X Rd",
       "suite": "Apt 30",
@@ -174,7 +174,7 @@ export const mockUsers: User[] = [
     "name": "Yuvraj Dsouza",
     "username": "yuvraj.dsouza07",
     "email": "yuvraj.dsouza@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/men/72.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=68",
     "address": {
       "street": "9324 Linking Rd",
       "suite": "Apt 3",
@@ -198,7 +198,7 @@ export const mockUsers: User[] = [
     "name": "Pratima Shroff",
     "username": "pratima.shroff08",
     "email": "pratima.shroff@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/69.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=1",
     "address": {
       "street": "7222 Carter Rd Promenade",
       "suite": "Apt 20",
@@ -222,7 +222,7 @@ export const mockUsers: User[] = [
     "name": "Nagesh Salian",
     "username": "nagesh.salian09",
     "email": "nagesh.salian@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/14.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=5",
     "address": {
       "street": "3351 Mall Rd",
       "suite": "Apt 6",
@@ -246,7 +246,7 @@ export const mockUsers: User[] = [
     "name": "Sandhya Nayak",
     "username": "sandhya.nayak10",
     "email": "sandhya.nayak@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/46.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=9",
     "address": {
       "street": "1830 Rasta Peth",
       "suite": "Apt 29",
@@ -270,7 +270,7 @@ export const mockUsers: User[] = [
     "name": "Chaithra Gatty",
     "username": "chaithra.gatty11",
     "email": "chaithra.gatty@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/68.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=10",
     "address": {
       "street": "2887 Janpath",
       "suite": "Apt 43",
@@ -294,7 +294,7 @@ export const mockUsers: User[] = [
     "name": "Taahira Chavare",
     "username": "taahira.chavare12",
     "email": "taahira.chavare@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/65.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=16",
     "address": {
       "street": "8140 Bhavani Peth",
       "suite": "Apt 8",
@@ -318,7 +318,7 @@ export const mockUsers: User[] = [
     "name": "Shubha Tipparti",
     "username": "shubha.tipparti13",
     "email": "shubha.tipparti@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/15.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=20",
     "address": {
       "street": "8600 NAD X Rd",
       "suite": "Apt 44",
@@ -342,7 +342,7 @@ export const mockUsers: User[] = [
     "name": "Dhanashri Dhamdhame",
     "username": "dhanashri.dhamdhame14",
     "email": "dhanashri.dhamdhame@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/women/67.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=24",
     "address": {
       "street": "5293 Rajpath",
       "suite": "Apt 37",
@@ -366,7 +366,7 @@ export const mockUsers: User[] = [
     "name": "Sai Manjunath",
     "username": "sai.manjunath15",
     "email": "sai.manjunath@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/men/84.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=25",
     "address": {
       "street": "7065 Shakespeare Sarani",
       "suite": "Apt 22",
@@ -390,7 +390,7 @@ export const mockUsers: User[] = [
     "name": "Jagdish Das",
     "username": "jagdish.das16",
     "email": "jagdish.das@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/men/66.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=30",
     "address": {
       "street": "2537 Chaman Ganj",
       "suite": "Apt 21",
@@ -414,7 +414,7 @@ export const mockUsers: User[] = [
     "name": "Nayana Gamskar",
     "username": "nayana.gamskar17",
     "email": "nayana.gamskar@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/women/32.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=42",
     "address": {
       "street": "1954 Linking Rd",
       "suite": "Apt 17",
@@ -438,7 +438,7 @@ export const mockUsers: User[] = [
     "name": "Shona Mathew",
     "username": "shona.mathew18",
     "email": "shona.mathew@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/86.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=43",
     "address": {
       "street": "6622 Shanmugham Rd",
       "suite": "Apt 26",
@@ -462,7 +462,7 @@ export const mockUsers: User[] = [
     "name": "Raj Andrade",
     "username": "raj.andrade19",
     "email": "raj.andrade@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/74.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=44",
     "address": {
       "street": "1648 Tank Bund Rd",
       "suite": "Apt 26",
@@ -486,7 +486,7 @@ export const mockUsers: User[] = [
     "name": "Kahaan Prabhakaran",
     "username": "kahaan.prabhakaran20",
     "email": "kahaan.prabhakaran@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/48.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=49",
     "address": {
       "street": "6998 College St",
       "suite": "Apt 45",
@@ -510,7 +510,7 @@ export const mockUsers: User[] = [
     "name": "Nitesh Vernekar",
     "username": "nitesh.vernekar21",
     "email": "nitesh.vernekar@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/54.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=11",
     "address": {
       "street": "8660 Rajpath",
       "suite": "Apt 28",
@@ -534,7 +534,7 @@ export const mockUsers: User[] = [
     "name": "Nayana Bhardwaj",
     "username": "nayana.bhardwaj22",
     "email": "nayana.bhardwaj@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/25.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=13",
     "address": {
       "street": "4559 Tank Bund Rd",
       "suite": "Apt 44",
@@ -558,7 +558,7 @@ export const mockUsers: User[] = [
     "name": "Nagraj Shet",
     "username": "nagraj.shet23",
     "email": "nagraj.shet@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/men/68.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=14",
     "address": {
       "street": "750 Dwaraka Nagar",
       "suite": "Apt 43",
@@ -582,7 +582,7 @@ export const mockUsers: User[] = [
     "name": "Mehar Ramesh",
     "username": "mehar.ramesh24",
     "email": "mehar.ramesh@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=33",
     "address": {
       "street": "6506 Ranganathan St",
       "suite": "Apt 11",
@@ -606,7 +606,7 @@ export const mockUsers: User[] = [
     "name": "Vandana Nair",
     "username": "vandana.nair25",
     "email": "vandana.nair@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=53",
     "address": {
       "street": "8462 Bandstand Promenade",
       "suite": "Apt 20",
@@ -630,7 +630,7 @@ export const mockUsers: User[] = [
     "name": "Tanmay Rajesh",
     "username": "tanmay.rajesh26",
     "email": "tanmay.rajesh@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/38.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=59",
     "address": {
       "street": "141 Mall Rd",
       "suite": "Apt 37",
@@ -654,7 +654,7 @@ export const mockUsers: User[] = [
     "name": "Vivek Gatty",
     "username": "vivek.gatty27",
     "email": "vivek.gatty@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/64.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=60",
     "address": {
       "street": "2772 Dwaraka Nagar",
       "suite": "Apt 36",
@@ -678,7 +678,7 @@ export const mockUsers: User[] = [
     "name": "Hitesh Babu",
     "username": "hitesh.babu28",
     "email": "hitesh.babu@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=68",
     "address": {
       "street": "9420 Rajaji Salai",
       "suite": "Apt 7",
@@ -702,7 +702,7 @@ export const mockUsers: User[] = [
     "name": "Reshma Kaur",
     "username": "reshma.kaur29",
     "email": "reshma.kaur@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/62.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=1",
     "address": {
       "street": "5223 Bhavani Peth",
       "suite": "Apt 33",
@@ -726,7 +726,7 @@ export const mockUsers: User[] = [
     "name": "Saheli Nand",
     "username": "saheli.nand30",
     "email": "saheli.nand@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/23.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=5",
     "address": {
       "street": "6684 Shakespeare Sarani",
       "suite": "Apt 21",
@@ -750,7 +750,7 @@ export const mockUsers: User[] = [
     "name": "Sai Kaur",
     "username": "sai.kaur31",
     "email": "sai.kaur@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/61.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=9",
     "address": {
       "street": "8355 Sao Tome Old Quarter",
       "suite": "Apt 15",
@@ -774,7 +774,7 @@ export const mockUsers: User[] = [
     "name": "Manasa Saniel",
     "username": "manasa.saniel32",
     "email": "manasa.saniel@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/88.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=10",
     "address": {
       "street": "789 Fontainhas",
       "suite": "Apt 24",
@@ -798,7 +798,7 @@ export const mockUsers: User[] = [
     "name": "Shrishti Chavare",
     "username": "shrishti.chavare33",
     "email": "shrishti.chavare@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/women/27.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=16",
     "address": {
       "street": "9338 Shivajinagar",
       "suite": "Apt 30",
@@ -822,7 +822,7 @@ export const mockUsers: User[] = [
     "name": "Hrithik Kavser",
     "username": "hrithik.kavser34",
     "email": "hrithik.kavser@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/55.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=20",
     "address": {
       "street": "8228 Santhekatte",
       "suite": "Apt 38",
@@ -846,7 +846,7 @@ export const mockUsers: User[] = [
     "name": "Shona Prajapati",
     "username": "shona.prajapati35",
     "email": "shona.prajapati@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/60.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=24",
     "address": {
       "street": "6152 Coaker's Walk",
       "suite": "Apt 50",
@@ -870,7 +870,7 @@ export const mockUsers: User[] = [
     "name": "Indrajit Babu",
     "username": "indrajit.babu36",
     "email": "indrajit.babu@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/men/98.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=25",
     "address": {
       "street": "334 Tank Bund Rd",
       "suite": "Apt 33",
@@ -894,7 +894,7 @@ export const mockUsers: User[] = [
     "name": "Dinella Bhardwaj",
     "username": "dinella.bhardwaj37",
     "email": "dinella.bhardwaj@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/36.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=30",
     "address": {
       "street": "7338 Shanmugham Rd",
       "suite": "Apt 32",
@@ -918,7 +918,7 @@ export const mockUsers: User[] = [
     "name": "Dinella Shroff",
     "username": "dinella.shroff38",
     "email": "dinella.shroff@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/75.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=42",
     "address": {
       "street": "4243 Tripolia Bazar",
       "suite": "Apt 29",
@@ -942,7 +942,7 @@ export const mockUsers: User[] = [
     "name": "Amol Singh",
     "username": "amol.singh39",
     "email": "amol.singh@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/men/23.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=43",
     "address": {
       "street": "9772 Chaman Ganj",
       "suite": "Apt 7",
@@ -966,7 +966,7 @@ export const mockUsers: User[] = [
     "name": "Nakul Kaur",
     "username": "nakul.kaur40",
     "email": "nakul.kaur@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/98.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=44",
     "address": {
       "street": "6788 College St",
       "suite": "Apt 2",
@@ -990,7 +990,7 @@ export const mockUsers: User[] = [
     "name": "Harini Gupta",
     "username": "harini.gupta41",
     "email": "harini.gupta@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/women/17.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=49",
     "address": {
       "street": "4452 Commercial St",
       "suite": "Apt 1",
@@ -1014,7 +1014,7 @@ export const mockUsers: User[] = [
     "name": "Raghav Saldanha",
     "username": "raghav.saldanha42",
     "email": "raghav.saldanha@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/men/87.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=11",
     "address": {
       "street": "6435 Lamington Rd",
       "suite": "Apt 42",
@@ -1038,7 +1038,7 @@ export const mockUsers: User[] = [
     "name": "Saisha Mathew",
     "username": "saisha.mathew43",
     "email": "saisha.mathew@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/41.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=13",
     "address": {
       "street": "756 Rani No Hajiro",
       "suite": "Apt 30",
@@ -1062,7 +1062,7 @@ export const mockUsers: User[] = [
     "name": "Tejas Kaur",
     "username": "tejas.kaur44",
     "email": "tejas.kaur@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/men/94.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=14",
     "address": {
       "street": "673 Gali Paranthe Wali",
       "suite": "Apt 45",
@@ -1086,7 +1086,7 @@ export const mockUsers: User[] = [
     "name": "Chaithra Mathew",
     "username": "chaithra.mathew45",
     "email": "chaithra.mathew@acmecorp.in",
-    "avatar": "https://randomuser.me/api/portraits/women/78.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=33",
     "address": {
       "street": "6645 Altamount Rd",
       "suite": "Apt 30",
@@ -1110,7 +1110,7 @@ export const mockUsers: User[] = [
     "name": "Kalpit Chiplunkar",
     "username": "kalpit.chiplunkar46",
     "email": "kalpit.chiplunkar@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/men/80.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=53",
     "address": {
       "street": "1410 Altamount Rd",
       "suite": "Apt 14",
@@ -1134,7 +1134,7 @@ export const mockUsers: User[] = [
     "name": "Kavitha Mardhekar",
     "username": "kavitha.mardhekar47",
     "email": "kavitha.mardhekar@techhub.in",
-    "avatar": "https://randomuser.me/api/portraits/women/58.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=59",
     "address": {
       "street": "3182 Naiduthota",
       "suite": "Apt 8",
@@ -1158,7 +1158,7 @@ export const mockUsers: User[] = [
     "name": "Reshma Rai",
     "username": "reshma.rai48",
     "email": "reshma.rai@buildfast.in",
-    "avatar": "https://randomuser.me/api/portraits/women/43.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=60",
     "address": {
       "street": "3732 Rajpath",
       "suite": "Apt 21",
@@ -1182,7 +1182,7 @@ export const mockUsers: User[] = [
     "name": "Ajith Anchan",
     "username": "ajith.anchan49",
     "email": "ajith.anchan@innovate.co.in",
-    "avatar": "https://randomuser.me/api/portraits/men/29.jpg",
+    "avatar": "https://i.pravatar.cc/250?img=68",
     "address": {
       "street": "8860 Sampige Rd",
       "suite": "Apt 17",
