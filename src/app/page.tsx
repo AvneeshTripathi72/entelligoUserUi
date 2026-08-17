@@ -40,18 +40,7 @@ export default async function HomePage() {
             </Button>
           </div>
 
-          <div className="flex items-center gap-4">
-            <div className="flex -space-x-3">
-              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=1" alt="Avatar" />
-              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=2" alt="Avatar" />
-              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=3" alt="Avatar" />
-              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=4" alt="Avatar" />
-            </div>
-            <div className="flex flex-col">
-              <span className="text-sm font-bold">1,000+ professionals trust UserHub</span>
-              <span className="text-xs text-muted-foreground font-medium">Find people faster, scale securely, and support growth.</span>
-            </div>
-          </div>
+
         </div>
       </div>
 
