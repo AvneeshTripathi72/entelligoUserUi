@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getUserById } from '@/services/api';
@@ -7,10 +7,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Badge } from '@/components/ui/badge';
 import { CopyButton } from '@/components/copy-button';
-import { 
-  ArrowLeft, Mail, Phone, Globe, Building, 
-  MapPin, Navigation, Code, Briefcase, UserIcon
-} from 'lucide-react';
+import {  ArrowLeft, Mail, Phone, Globe, Building, Briefcase, UserIcon, MapPin  } from 'lucide-react';
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params;
@@ -20,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
       title: `${user.name} | Directory`,
       description: `View profile details for ${user.name} from ${user.company.name}.`,
     };
-  } catch (error) {
+  } catch {
     return {
       title: 'User Not Found',
     };
@@ -33,7 +30,7 @@ export default async function UserDetailsPage({ params }: { params: Promise<{ id
   let user;
   try {
     user = await getUserById(resolvedParams.id);
-  } catch (error) {
+  } catch {
     notFound();
   }
 
@@ -63,7 +60,6 @@ export default async function UserDetailsPage({ params }: { params: Promise<{ id
 
   return (
     <div className="w-full bg-muted/20 pb-20">
-      {/* Cover Banner */}
       <div className={`h-48 md:h-64 w-full bg-gradient-to-r ${gradientClass} relative`}>
         <div className="absolute inset-0 bg-black/10 mix-blend-overlay"></div>
       </div>
@@ -76,7 +72,6 @@ export default async function UserDetailsPage({ params }: { params: Promise<{ id
           </Button>
         </Link>
 
-        {/* Profile Header Card */}
         <Card className="rounded-3xl shadow-xl border-0 overflow-hidden mb-8 bg-background/95 backdrop-blur-sm">
           <CardContent className="p-6 md:p-10 flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10">
             <Avatar className="h-32 w-32 md:h-40 md:w-40 border-4 border-background shadow-2xl rounded-[2rem]">
@@ -102,10 +97,8 @@ export default async function UserDetailsPage({ params }: { params: Promise<{ id
           </CardContent>
         </Card>
 
-        {/* Bento Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
-          {/* Contact Details */}
           <Card className="rounded-3xl shadow-md border-border/50 lg:col-span-1">
             <CardContent className="p-8 space-y-6">
               <div className="flex items-center gap-3 text-primary mb-2">
@@ -203,7 +196,7 @@ export default async function UserDetailsPage({ params }: { params: Promise<{ id
               
               <h4 className="text-2xl font-black mb-2">{user.company.name}</h4>
               <p className="text-lg italic text-muted-foreground mb-8 flex-1">
-                "{user.company.catchPhrase}"
+                &quot;{user.company.catchPhrase}&quot;
               </p>
 
               <div className="mt-auto">

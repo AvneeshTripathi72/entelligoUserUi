@@ -14,7 +14,6 @@ export default function LoadingUserDetails() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        {/* Left Column Skeleton */}
         <div className="lg:col-span-1 space-y-6">
           <div className="rounded-2xl border shadow-sm p-8 flex flex-col items-center text-center">
             <Skeleton className="h-40 w-40 rounded-full mb-6" />
@@ -33,7 +32,6 @@ export default function LoadingUserDetails() {
           </div>
         </div>
 
-        {/* Right Column Skeleton */}
         <div className="lg:col-span-2 space-y-6">
           <div className="rounded-2xl border shadow-sm p-6 space-y-6 h-full">
             <Skeleton className="h-8 w-1/3 mb-4" />

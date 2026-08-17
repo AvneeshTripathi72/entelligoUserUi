@@ -2,9 +2,7 @@ import { User } from '@/types/user';
 
 const API_URL = 'https://dummyjson.com/users';
 
-/**
- * Fetches 50 distinct dummy users from DummyJSON API and maps them to our User interface.
- */
+
 export async function getUsers(): Promise<User[]> {
   try {
     const response = await fetch(`${API_URL}?limit=50`);
@@ -13,7 +11,6 @@ export async function getUsers(): Promise<User[]> {
     }
     const data = await response.json();
     
-    // Map DummyJSON schema to our expected User schema
     const users: User[] = data.users.map((u: any) => ({
       id: u.id,
       name: `${u.firstName} ${u.lastName}`,
@@ -30,11 +27,10 @@ export async function getUsers(): Promise<User[]> {
       },
       company: {
         name: u.company.name,
-        catchPhrase: u.company.title, // using job title as catchphrase for display
+        catchPhrase: u.company.title,
         bs: u.company.department || ''
       },
-      // Optionally keeping the professional unsplash photos logic active via ID in UserCard, 
-      // or we can use DummyJSON's built in avatar if preferred: avatar: u.image
+  
     }));
     
     return users;
@@ -55,7 +51,7 @@ export async function getUserById(id: string): Promise<User> {
     }
     const u: any = await response.json();
     
-    // Map single user response
+  
     return {
       id: u.id,
       name: `${u.firstName} ${u.lastName}`,

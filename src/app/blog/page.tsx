@@ -80,7 +80,7 @@ const recentPosts = [
 export default function BlogPage() {
   return (
     <div className="container mx-auto px-4 py-8 md:py-16 max-w-7xl">
-      {/* Header Section */}
+   
       <div className="flex flex-col items-center text-center mb-16 max-w-3xl mx-auto">
         <Badge variant="outline" className="px-4 py-1.5 rounded-full text-sm mb-6 border-primary/20 bg-primary/5 text-primary">
           Our Blog
@@ -93,7 +93,7 @@ export default function BlogPage() {
         </p>
       </div>
 
-      {/* Featured Post */}
+    
       <div className="mb-20">
         <h2 className="text-2xl font-bold mb-6">Featured Article</h2>
         <Card className="overflow-hidden border-none shadow-xl bg-card rounded-3xl group cursor-pointer">
@@ -169,7 +169,7 @@ export default function BlogPage() {
         </div>
       </div>
       
-      {/* Newsletter Section */}
+   
       <div className="mt-24 bg-foreground text-background rounded-3xl p-8 md:p-16 text-center max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Subscribe to our newsletter</h2>
         <p className="text-background/80 mb-8 max-w-xl mx-auto">

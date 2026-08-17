@@ -3,20 +3,18 @@ import { Skeleton } from '@/components/ui/skeleton';
 export default function Loading() {
   return (
     <div className="container mx-auto px-4 py-8 md:py-12 max-w-7xl space-y-8">
-      {/* Header Skeleton */}
       <div className="flex flex-col gap-4">
         <Skeleton className="h-6 w-24 rounded-full" />
         <Skeleton className="h-10 md:h-14 w-3/4 max-w-lg" />
         <Skeleton className="h-6 w-full max-w-2xl" />
       </div>
 
-      {/* Controls Skeleton */}
+
       <div className="flex flex-col sm:flex-row gap-4 justify-between bg-card p-4 rounded-xl border">
         <Skeleton className="h-11 w-full sm:max-w-md rounded-lg" />
         <Skeleton className="h-11 w-full sm:w-28 rounded-lg" />
       </div>
 
-      {/* Cards Skeleton Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {Array.from({ length: 8 }).map((_, i) => (
           <div key={i} className="flex flex-col h-[280px] rounded-xl border p-6">

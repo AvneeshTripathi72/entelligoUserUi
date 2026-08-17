@@ -21,13 +21,11 @@ export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
   
-  // Use debounced search term for performance
   const debouncedSearch = useDebounce(searchTerm, 300);
 
   const filteredAndSortedUsers = useMemo(() => {
     let result = [...initialUsers];
 
-    // Filter by search term
     if (debouncedSearch) {
       const lowercasedSearch = debouncedSearch.toLowerCase();
       result = result.filter(
@@ -38,7 +36,6 @@ export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
       );
     }
 
-    // Sort by name
     result.sort((a, b) => {
       const nameA = a.name.toLowerCase();
       const nameB = b.name.toLowerCase();
@@ -52,7 +49,6 @@ export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
     return result;
   }, [initialUsers, debouncedSearch, sortOrder]);
 
-  // Reset to page 1 when search or sort changes
   useMemo(() => {
     setCurrentPage(1);
   }, [debouncedSearch, sortOrder]);
@@ -68,7 +64,7 @@ export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
   const totalPages = Math.ceil(filteredAndSortedUsers.length / itemsPerPage);
   const currentUsers = mode === 'grid' 
     ? filteredAndSortedUsers.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
-    : filteredAndSortedUsers.slice(0, 8); // Carousel just shows first 8
+    : filteredAndSortedUsers.slice(0, 8);
 
   return (
     <div className="space-y-6">
@@ -125,7 +121,6 @@ export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
             </div>
           )}
 
-          {/* Pagination Controls for Grid Mode */}
           {mode === 'grid' && totalPages > 1 && (
             <div className="flex items-center justify-between pt-4 border-t">
               <p className="text-sm text-muted-foreground">

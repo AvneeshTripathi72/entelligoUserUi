@@ -74,7 +74,7 @@ const team = [
 export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Hero Section */}
+
       <section className="relative py-24 md:py-32 overflow-hidden bg-background">
         <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-background" />
         <div className="container mx-auto px-4 relative max-w-7xl">
@@ -134,7 +134,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
+    
       <section className="py-24 md:py-32 bg-muted/30 border-t">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="mb-16 md:mb-24 text-center max-w-2xl mx-auto">
@@ -148,7 +148,7 @@ export default function AboutPage() {
             {team.map((member, index) => (
               <div key={index} className="group cursor-pointer">
                 <div className="relative overflow-hidden rounded-3xl aspect-[4/5] mb-6">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                
                   <img
                     src={member.image}
                     alt={member.name}
@@ -164,7 +164,7 @@ export default function AboutPage() {
         </div>
       </section>
       
-      {/* CTA Section */}
+  
       <section className="py-24 md:py-32 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary/5" />
         <div className="container mx-auto px-4 relative max-w-4xl text-center">

@@ -20,13 +20,13 @@ export function Header() {
   return (
     <header className="border-b bg-background shadow-sm sticky top-0 z-50">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between max-w-7xl">
-        {/* Logo */}
+    
         <Link href="/" className="flex items-center gap-2 font-black text-2xl tracking-tight hover:opacity-90 transition-opacity">
           <Logo />
           UserHub
         </Link>
 
-        {/* Desktop Nav */}
+    
         <nav className="hidden md:flex flex-1 justify-center items-center gap-10">
           {navLinks.map((link) => {
             const isActive = pathname === link.href;
@@ -49,7 +49,7 @@ export function Header() {
           })}
         </nav>
 
-        {/* Actions */}
+  
         <div className="flex items-center gap-4">
           <ThemeToggle />
         </div>
