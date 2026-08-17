@@ -29,19 +29,26 @@ export function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex flex-1 justify-center items-center gap-8">
-          {navLinks.map((link) => (
-            <Link 
-              key={link.title} 
-              href={link.href}
-              className={cn(
-                "text-sm font-medium transition-colors hover:text-primary",
-                pathname === link.href ? "text-foreground font-semibold" : "text-muted-foreground"
-              )}
-            >
-              {link.title}
-            </Link>
-          ))}
+        <nav className="hidden md:flex flex-1 justify-center items-center gap-10">
+          {navLinks.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link 
+                key={link.title} 
+                href={link.href}
+                className={cn(
+                  "relative text-base font-semibold transition-all duration-300 hover:text-foreground group py-1",
+                  isActive ? "text-foreground" : "text-muted-foreground"
+                )}
+              >
+                {link.title}
+                <span className={cn(
+                  "absolute bottom-0 left-0 h-0.5 bg-foreground transition-all duration-300",
+                  isActive ? "w-full" : "w-0 group-hover:w-full"
+                )}></span>
+              </Link>
+            )
+          })}
         </nav>
 
         {/* Actions */}
