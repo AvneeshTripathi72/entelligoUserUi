@@ -30,11 +30,6 @@ src/
 ├── types/             # TypeScript interfaces for API responses
 ```
 
-## Screenshots
-*(Add placeholders for screenshots here)*
-- Dashboard View
-- User Details View
-- Mobile View
 
 ## Installation
 
