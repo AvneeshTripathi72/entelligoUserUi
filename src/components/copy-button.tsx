@@ -17,16 +17,17 @@ export function CopyButton({ text, label = "Copied to clipboard" }: CopyButtonPr
     try {
       await navigator.clipboard.writeText(text);
       setCopied(true);
-      toast({
+      toast.add({
         title: "Success",
         description: label,
+        type: "success",
       });
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      toast({
+      toast.add({
         title: "Error",
         description: "Failed to copy text",
-        variant: "destructive",
+        type: "error",
       });
     }
   };

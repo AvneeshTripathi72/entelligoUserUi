@@ -175,7 +175,7 @@ export default function BlogPage() {
         <p className="text-background/80 mb-8 max-w-xl mx-auto">
           Get the latest insights, news, and updates delivered straight to your inbox once a month. No spam, ever.
         </p>
-        <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onSubmit={(e) => e.preventDefault()}>
+        <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
           <input 
             type="email" 
             placeholder="Enter your email address" 

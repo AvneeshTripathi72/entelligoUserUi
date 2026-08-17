@@ -3,6 +3,7 @@ import { UserList } from '@/features/users/components/UserList';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Directory | Users',
@@ -15,12 +16,12 @@ export default async function HomePage() {
   return (
     <div className="container mx-auto px-4 py-8 md:py-12 max-w-7xl">
       <div className="flex flex-col lg:flex-row gap-12 mb-16 pt-8">
-        <div className="flex flex-col max-w-3xl">
+        <div className="flex flex-col max-w-3xl lg:w-1/2">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-muted/50 text-muted-foreground w-fit mb-8 border font-semibold text-xs tracking-widest uppercase">
             Built for modern organizations
           </div>
           
-          <h1 className="text-5xl md:text-6xl lg:text-[5rem] font-bold tracking-tight text-foreground leading-[1.05] mb-6">
+          <h1 className="text-5xl md:text-6xl lg:text-[4.5rem] font-bold tracking-tight text-foreground leading-[1.1] mb-6">
             Enterprise-grade<br />
             user directory<br />
             for growing teams.
@@ -44,12 +45,23 @@ export default async function HomePage() {
               </Button>
             </Link>
           </div>
+        </div>
 
-
+        <div className="hidden lg:flex lg:w-1/2 justify-end relative items-center">
+          <div className="relative w-full aspect-[4/3] rounded-[2.5rem] overflow-hidden shadow-2xl border border-border/50 bg-muted/30">
+            <Image 
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80" 
+              alt="Team collaborating" 
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-tr from-background/20 to-transparent mix-blend-overlay"></div>
+          </div>
         </div>
       </div>
 
-      <UserList initialUsers={users} />
+      <UserList initialUsers={users} mode="grid" />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Logo } from "@/components/logo";
 
 export function Footer() {
   return (
@@ -7,9 +8,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="flex items-center gap-2 font-black text-xl tracking-tight hover:opacity-90 transition-opacity mb-4">
-              <div className="bg-foreground text-background p-1 transform rotate-45 rounded-sm shadow-md">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="-rotate-45"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
-              </div>
+              <Logo size={14} />
               UserHub
             </Link>
             <p className="text-sm text-muted-foreground mb-6">

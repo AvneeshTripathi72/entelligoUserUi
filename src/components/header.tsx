@@ -4,7 +4,7 @@ import * as React from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { ThemeToggle } from "@/components/theme-toggle"
-import { Button } from "@/components/ui/button"
+import { Logo } from "@/components/logo"
 import { cn } from "@/lib/utils"
 
 const navLinks = [
@@ -22,9 +22,7 @@ export function Header() {
       <div className="container mx-auto px-4 h-16 flex items-center justify-between max-w-7xl">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 font-black text-2xl tracking-tight hover:opacity-90 transition-opacity">
-          <div className="bg-foreground text-background p-1 transform rotate-45 rounded-sm shadow-md">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="-rotate-45"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
-          </div>
+          <Logo />
           UserHub
         </Link>
 
@@ -54,9 +52,6 @@ export function Header() {
         {/* Actions */}
         <div className="flex items-center gap-4">
           <ThemeToggle />
-          <Button className="rounded-full px-6 font-bold bg-foreground text-background hover:bg-foreground/90">
-            Let's talk
-          </Button>
         </div>
       </div>
     </header>

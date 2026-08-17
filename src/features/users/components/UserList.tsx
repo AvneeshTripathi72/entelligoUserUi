@@ -19,7 +19,7 @@ export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 20;
+  const itemsPerPage = 12;
   
   // Use debounced search term for performance
   const debouncedSearch = useDebounce(searchTerm, 300);
