@@ -5,18 +5,21 @@ import { User } from '@/types/user';
 import { UserCard } from './UserCard';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Search, ArrowUpDown, X } from 'lucide-react';
+import { Search, ArrowUpDown, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useDebounce } from '@/hooks/use-debounce';
 
 interface UserListProps {
   initialUsers: User[];
+  mode?: 'carousel' | 'grid';
 }
 
 type SortOrder = 'asc' | 'desc';
 
-export function UserList({ initialUsers }: UserListProps) {
+export function UserList({ initialUsers, mode = 'carousel' }: UserListProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [sortOrder, setSortOrder] = useState<SortOrder>('asc');
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 20;
   
   // Use debounced search term for performance
   const debouncedSearch = useDebounce(searchTerm, 300);
@@ -49,6 +52,11 @@ export function UserList({ initialUsers }: UserListProps) {
     return result;
   }, [initialUsers, debouncedSearch, sortOrder]);
 
+  // Reset to page 1 when search or sort changes
+  useMemo(() => {
+    setCurrentPage(1);
+  }, [debouncedSearch, sortOrder]);
+
   const toggleSort = () => {
     setSortOrder(prev => prev === 'asc' ? 'desc' : 'asc');
   };
@@ -56,6 +64,11 @@ export function UserList({ initialUsers }: UserListProps) {
   const clearSearch = () => {
     setSearchTerm('');
   };
+
+  const totalPages = Math.ceil(filteredAndSortedUsers.length / itemsPerPage);
+  const currentUsers = mode === 'grid' 
+    ? filteredAndSortedUsers.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage)
+    : filteredAndSortedUsers.slice(0, 8); // Carousel just shows first 8
 
   return (
     <div className="space-y-6">
@@ -95,13 +108,55 @@ export function UserList({ initialUsers }: UserListProps) {
       </div>
 
       {filteredAndSortedUsers.length > 0 ? (
-        <div className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-          {filteredAndSortedUsers.slice(0, 8).map((user) => (
-            <div key={user.id} className="min-w-[300px] sm:min-w-[380px] shrink-0 snap-start">
-              <UserCard user={user} />
+        <>
+          {mode === 'carousel' ? (
+            <div className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+              {currentUsers.map((user) => (
+                <div key={user.id} className="min-w-[300px] sm:min-w-[380px] shrink-0 snap-start">
+                  <UserCard user={user} />
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {currentUsers.map((user) => (
+                <UserCard key={user.id} user={user} />
+              ))}
+            </div>
+          )}
+
+          {/* Pagination Controls for Grid Mode */}
+          {mode === 'grid' && totalPages > 1 && (
+            <div className="flex items-center justify-between pt-4 border-t">
+              <p className="text-sm text-muted-foreground">
+                Showing {((currentPage - 1) * itemsPerPage) + 1} to {Math.min(currentPage * itemsPerPage, filteredAndSortedUsers.length)} of {filteredAndSortedUsers.length} users
+              </p>
+              <div className="flex gap-2">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                >
+                  <ChevronLeft className="h-4 w-4 mr-1" />
+                  Previous
+                </Button>
+                <div className="flex items-center px-4 font-medium text-sm">
+                  Page {currentPage} of {totalPages}
+                </div>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                  disabled={currentPage === totalPages}
+                >
+                  Next
+                  <ChevronRight className="h-4 w-4 ml-1" />
+                </Button>
+              </div>
+            </div>
+          )}
+        </>
       ) : (
         <div className="text-center py-20 px-4 bg-card rounded-xl border border-dashed flex flex-col items-center justify-center">
           <div className="bg-primary/10 h-16 w-16 rounded-full flex items-center justify-center mb-4 text-primary">

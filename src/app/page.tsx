@@ -2,6 +2,7 @@ import { getUsers } from '@/services/api';
 import { UserList } from '@/features/users/components/UserList';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Directory | Users',
@@ -30,14 +31,18 @@ export default async function HomePage() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button size="lg" className="rounded-full px-8 h-14 font-semibold text-base bg-foreground text-background hover:bg-foreground/90 gap-2">
-              Browse Directory
-              <ArrowRight className="w-4 h-4" />
-            </Button>
-            <Button variant="outline" size="lg" className="rounded-full px-8 h-14 font-semibold text-base gap-2">
-              View Documentation
-              <ArrowUpRight className="w-4 h-4 text-muted-foreground" />
-            </Button>
+            <Link href="/users">
+              <Button size="lg" className="rounded-full px-8 h-14 font-semibold text-base bg-foreground text-background hover:bg-foreground/90 gap-2 w-full sm:w-auto">
+                Browse Directory
+                <ArrowRight className="w-4 h-4" />
+              </Button>
+            </Link>
+            <Link href="/about">
+              <Button variant="outline" size="lg" className="rounded-full px-8 h-14 font-semibold text-base gap-2 w-full sm:w-auto">
+                View Documentation
+                <ArrowUpRight className="w-4 h-4 text-muted-foreground" />
+              </Button>
+            </Link>
           </div>
 
 
