@@ -88,9 +88,3 @@ JSONPlaceholder - `https://jsonplaceholder.typicode.com/users`
 - Server-side Search for handling massive directories
 - Authentication for internal employee views
 - Dark Theme toggle
-
-## Live Demo
-[Insert Vercel Link Here]
-
-## GitHub
-[Insert Repository Link Here]

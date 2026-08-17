@@ -94,8 +94,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Stats Section */}
       <section className="py-12 border-y bg-muted/30">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-border/50">
@@ -109,7 +107,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Mission & Values Section */}
       <section className="py-24 md:py-32">
         <div className="container mx-auto px-4 max-w-7xl">
           <div className="mb-16 md:mb-24 text-center max-w-2xl mx-auto">
