@@ -1,6 +1,7 @@
 import { getUsers } from '@/services/api';
 import { UserList } from '@/features/users/components/UserList';
-import { Users } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { ArrowRight, ArrowUpRight } from 'lucide-react';
 
 export const metadata = {
   title: 'Directory | Users',
@@ -12,17 +13,46 @@ export default async function HomePage() {
 
   return (
     <div className="container mx-auto px-4 py-8 md:py-12 max-w-7xl">
-      <div className="flex flex-col mb-8 gap-2">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary w-fit mb-2">
-          <Users className="w-4 h-4" />
-          <span className="text-xs font-semibold uppercase tracking-wider">Directory</span>
+      <div className="flex flex-col lg:flex-row gap-12 mb-16 pt-8">
+        <div className="flex flex-col max-w-3xl">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-muted/50 text-muted-foreground w-fit mb-8 border font-semibold text-xs tracking-widest uppercase">
+            Built for ambitious teams
+          </div>
+          
+          <h1 className="text-5xl md:text-6xl lg:text-[5rem] font-bold tracking-tight text-foreground leading-[1.05] mb-6">
+            Financial-grade<br />
+            software engineering<br />
+            for modern businesses.
+          </h1>
+          
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mb-10 leading-relaxed font-medium">
+            Entelligo helps teams launch secure products, automate complex workflows, and scale confidently across web, cloud, and AI.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 mb-12">
+            <Button size="lg" className="rounded-full px-8 h-14 font-semibold text-base bg-foreground text-background hover:bg-foreground/90 gap-2">
+              Schedule a strategy call
+              <ArrowRight className="w-4 h-4" />
+            </Button>
+            <Button variant="outline" size="lg" className="rounded-full px-8 h-14 font-semibold text-base gap-2">
+              Explore case studies
+              <ArrowUpRight className="w-4 h-4 text-muted-foreground" />
+            </Button>
+          </div>
+
+          <div className="flex items-center gap-4">
+            <div className="flex -space-x-3">
+              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=1" alt="Avatar" />
+              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=2" alt="Avatar" />
+              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=3" alt="Avatar" />
+              <img className="w-10 h-10 rounded-full border-2 border-background object-cover" src="https://i.pravatar.cc/100?img=4" alt="Avatar" />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-sm font-bold">160+ founders and operators trust Entelligo</span>
+              <span className="text-xs text-muted-foreground font-medium">Ship faster, scale safely, and support growth.</span>
+            </div>
+          </div>
         </div>
-        <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-foreground">
-          Meet our team
-        </h1>
-        <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mt-2">
-          Search, sort, and find the right people across our organization quickly and easily.
-        </p>
       </div>
 
       <UserList initialUsers={users} />
