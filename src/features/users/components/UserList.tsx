@@ -95,9 +95,11 @@ export function UserList({ initialUsers }: UserListProps) {
       </div>
 
       {filteredAndSortedUsers.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {filteredAndSortedUsers.map((user) => (
-            <UserCard key={user.id} user={user} />
+        <div className="flex overflow-x-auto gap-6 pb-8 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          {filteredAndSortedUsers.slice(0, 8).map((user) => (
+            <div key={user.id} className="min-w-[300px] sm:min-w-[380px] shrink-0 snap-start">
+              <UserCard user={user} />
+            </div>
           ))}
         </div>
       ) : (
